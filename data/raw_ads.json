@@ -1,0 +1,3719 @@
+{
+    "success": true,
+    "message": "Kleinanzeigen live search completed",
+    "data": {
+        "meta": {
+            "page": 0,
+            "size": 50,
+            "total": 5690,
+            "exact_total": true,
+            "has_next_page": true,
+            "next_page": 1,
+            "source": "live"
+        },
+        "ads": [
+            {
+                "ad_id": "3554377218",
+                "title": "Gaming Pc | Ryzen 7 3700x | GTX 1060 Asus | 16GB Ram | 2,3TB",
+                "description": "Habe noch aus Rumliegenden Teilen einen Feinen Rechner Zusammengebaut und da ich ihn aktuell nicht ben\u00f6tige Biete ich ihn zum Verkauf an. Alle Komponenten wurde mit Benchmarks unsw Gepr\u00fcft, W\u00e4rmeleitpaste wurde erneuert und so gut wie es...",
+                "price": {
+                    "amount": 360,
+                    "currency_code": "EUR",
+                    "currency_label": "\u20ac",
+                    "price_type": "PLEASE_CONTACT",
+                    "negotiable": false
+                },
+                "shipping_available": true,
+                "buy_now_available": true,
+                "images": [
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/01/011155f4-ae28-4455-864a-a5c78ef93c27?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/1e/1e16ef5f-443d-48d3-a55b-0493c2ec40c6?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/39/398d7558-5cc3-4576-8890-4885488e0a3e?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/93/933968dc-3cfd-4d91-8e99-c7fcacb1bb96?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/88/88a7b88c-16bc-4bae-b3a5-57e6c8699ebb?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/2e/2ee0e2a0-323d-4566-abe6-2fb203585394?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/4f/4f673ac1-f239-42a1-89b1-32af1748b930?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/6a/6a919c26-8168-41ea-843b-85db1ce2f239?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/d5/d51d2905-a075-4685-bbc0-d37fbbb532a0?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/33/336cc646-abf8-4e05-b210-e9402e30d04c?rule=$_57.AUTO"
+                ],
+                "links": [
+                    {
+                        "rel": "self-public-website",
+                        "href": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-ryzen-7-3700x-gtx-1060-asus-16gb-ram-2-3tb/3554377218-228-13779"
+                    }
+                ],
+                "ad_url": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-ryzen-7-3700x-gtx-1060-asus-16gb-ram-2-3tb/3554377218-228-13779",
+                "views": null,
+                "created_at": "2026-10-27T20:35:51.000Z",
+                "status": "ACTIVE",
+                "deleted": false,
+                "seller": {
+                    "seller_id": "144357882",
+                    "name": null,
+                    "type": "PRIVATE",
+                    "account_type": "PRIVATE",
+                    "store_id": null,
+                    "store_title": null,
+                    "company_id": null,
+                    "since": null,
+                    "badges": []
+                },
+                "location": {
+                    "id": "13779",
+                    "name": "06217 Merseburg",
+                    "city": "Merseburg",
+                    "state": "Sachsen-Anhalt",
+                    "zip": "06217",
+                    "latitude": 51.357212,
+                    "longitude": 11.992299,
+                    "radius": 3.82
+                },
+                "category": {
+                    "id": "228",
+                    "name": "PCs",
+                    "parent_id": null
+                },
+                "attributes": [
+                    {
+                        "name": "pcs.condition",
+                        "label": "Zustand",
+                        "values": [
+                            {
+                                "value": "like_new",
+                                "label": "Sehr Gut"
+                            }
+                        ]
+                    }
+                ],
+                "details": {
+                    "Zustand": "Sehr Gut"
+                }
+            },
+            {
+                "ad_id": "3526597723",
+                "title": "Gaming PC \u2013 Ryzen 5 3600 | GTX 1070 | 16 GB RAM | SSD + HDD",
+                "description": "Gaming PC \u2013 Ryzen 5 3600 | GTX 1070 | 16 GB RAM | SSD + HDD Verkaufe meinen gepflegten Gaming-PC. Der PC funktioniert einwandfrei und wurde frisch zur\u00fcckgesetzt bzw. Windows neu installiert, sodass er direkt genutzt werden kann. <br...",
+                "price": {
+                    "amount": 499,
+                    "currency_code": "EUR",
+                    "currency_label": "\u20ac",
+                    "price_type": "PLEASE_CONTACT",
+                    "negotiable": false
+                },
+                "shipping_available": true,
+                "buy_now_available": false,
+                "images": [
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/5d/5d7ac92e-7020-4c90-bf64-6df396d42f1e?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/d8/d8b825c3-2d48-4994-94ac-442f32d3f073?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/50/5096e39c-4622-493f-a827-818cd9c2960b?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/87/87f80525-9012-4cba-b539-01e02243fd03?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/34/3440f5c6-ae95-4ad1-8403-4b309e21cc4e?rule=$_57.AUTO"
+                ],
+                "links": [
+                    {
+                        "rel": "self-public-website",
+                        "href": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-ryzen-5-3600-gtx-1070-16-gb-ram-ssd-hdd/3526597723-228-9009"
+                    }
+                ],
+                "ad_url": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-ryzen-5-3600-gtx-1070-16-gb-ram-ssd-hdd/3526597723-228-9009",
+                "views": null,
+                "created_at": "2026-10-27T20:34:10.000Z",
+                "status": "ACTIVE",
+                "deleted": false,
+                "seller": {
+                    "seller_id": "149923405",
+                    "name": null,
+                    "type": "PRIVATE",
+                    "account_type": "PRIVATE",
+                    "store_id": null,
+                    "store_title": null,
+                    "company_id": null,
+                    "since": null,
+                    "badges": []
+                },
+                "location": {
+                    "id": "9009",
+                    "name": "73525 Schw\u00e4bisch Gm\u00fcnd",
+                    "city": "Schw\u00e4bisch Gm\u00fcnd",
+                    "state": "Baden-W\u00fcrttemberg",
+                    "zip": "73525",
+                    "latitude": 48.79377,
+                    "longitude": 9.798885,
+                    "radius": 3.41
+                },
+                "category": {
+                    "id": "228",
+                    "name": "PCs",
+                    "parent_id": null
+                },
+                "attributes": [
+                    {
+                        "name": "pcs.condition",
+                        "label": "Zustand",
+                        "values": [
+                            {
+                                "value": "ok",
+                                "label": "Gut"
+                            }
+                        ]
+                    }
+                ],
+                "details": {
+                    "Zustand": "Gut"
+                }
+            },
+            {
+                "ad_id": "3554373590",
+                "title": "Gaming PC mit RTX 3060, Ryzen 7 3800X und RGB",
+                "description": "Gaming-PC mit RTX 3060, Ryzen 7 3800X und RGB Ich verkaufe meinen Gaming-PC, da ich ihn nicht mehr benutze. Die RGB-Beleuchtung l\u00e4sst sich individuell einstellen, wobei jede LED einzeln angesteuert werden kann. Komponenten:<br...",
+                "price": {
+                    "amount": 595,
+                    "currency_code": "EUR",
+                    "currency_label": "\u20ac",
+                    "price_type": "PLEASE_CONTACT",
+                    "negotiable": false
+                },
+                "shipping_available": null,
+                "buy_now_available": false,
+                "images": [
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/b4/b42850d1-5bda-4c14-9b74-b564a34164b1?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/aa/aab14008-17c6-46e2-a38e-e4f6989f72b9?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/50/505e9e40-04c9-4727-80f4-0db01e50f5aa?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/0f/0f667fdd-4ccc-46c7-a8e7-335e82abd6c5?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/37/37552e5d-ef08-4b3f-9642-07aef714b7b9?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/a8/a8a22602-d4cf-4c96-bac2-61d24c9cc088?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/4b/4b17ea45-eeab-4e6c-aa36-c69a660592f5?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/00/009008cc-4a63-4882-972a-c2e05d528780?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/12/12466fe3-1861-4a89-9df0-8f975444dfdf?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/7e/7e8b14d2-7ea5-4684-88a1-05ebb3da6c36?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/a2/a2699c03-6069-4e3e-b463-8a6602567b33?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/7a/7af3b8c8-dfed-48c3-8ce6-d2e36de9fc91?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/62/62869c37-3c4a-4708-8023-85e742bea976?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/2b/2b611e9f-378e-4c89-aaae-d33746ee1539?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/19/19a7b7fa-f85f-40c2-bc3e-0875c46cf335?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/7b/7ba70a82-e529-4005-bef4-591b1146abfe?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/c5/c5126db3-2fec-4d4d-8a93-9d4f243bc073?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/61/619aef8a-7c14-41a5-a021-493f7e309ae6?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/b8/b8bfcdff-72be-42e3-a429-3f48524839d2?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/3e/3eb64dd1-8109-4a29-b0b2-6ab634e552aa?rule=$_57.AUTO"
+                ],
+                "links": [
+                    {
+                        "rel": "self-public-website",
+                        "href": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-mit-rtx-3060-ryzen-7-3800x-und-rgb/3554373590-228-8747"
+                    }
+                ],
+                "ad_url": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-mit-rtx-3060-ryzen-7-3800x-und-rgb/3554373590-228-8747",
+                "views": null,
+                "created_at": "2026-10-27T20:30:32.000Z",
+                "status": "ACTIVE",
+                "deleted": false,
+                "seller": {
+                    "seller_id": "128270203",
+                    "name": null,
+                    "type": "PRIVATE",
+                    "account_type": "PRIVATE",
+                    "store_id": null,
+                    "store_title": null,
+                    "company_id": null,
+                    "since": null,
+                    "badges": []
+                },
+                "location": {
+                    "id": "8747",
+                    "name": "77839 Lichtenau",
+                    "city": "Lichtenau",
+                    "state": "Baden-W\u00fcrttemberg",
+                    "zip": "77839",
+                    "latitude": 48.712654,
+                    "longitude": 8.008075,
+                    "radius": 3.63
+                },
+                "category": {
+                    "id": "228",
+                    "name": "PCs",
+                    "parent_id": null
+                },
+                "attributes": [
+                    {
+                        "name": "pcs.condition",
+                        "label": "Zustand",
+                        "values": [
+                            {
+                                "value": "like_new",
+                                "label": "Sehr Gut"
+                            }
+                        ]
+                    }
+                ],
+                "details": {
+                    "Zustand": "Sehr Gut"
+                }
+            },
+            {
+                "ad_id": "3554371808",
+                "title": "Gaming PC mit Setup",
+                "description": "Ich biete hier mein gebrauchtes Gaming-Setup zum Verkauf an, da ich auf ein neues System umsteige. Das Set ist sofort einsatzbereit und umfasst den PC sowie das gesamte abgebildete Zubeh\u00f6r. - Prozessor: AMD Ryzen 5 4500 -...",
+                "price": {
+                    "amount": 525,
+                    "currency_code": "EUR",
+                    "currency_label": "\u20ac",
+                    "price_type": "SPECIFIED_AMOUNT",
+                    "negotiable": false
+                },
+                "shipping_available": true,
+                "buy_now_available": true,
+                "images": [
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/7d/7d1ca8ca-d260-4b57-864d-94cfde1e0b47?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/55/55c86026-2027-47fe-ba41-3f7fb2b065ab?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/21/2189aafe-eeee-454b-9208-c5d6e08c26f2?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ef/eff5d67e-28e0-4357-ac5b-138b62aac56f?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/18/18ad8701-d7a9-4dd1-b32a-98e2c842737e?rule=$_57.AUTO"
+                ],
+                "links": [
+                    {
+                        "rel": "self-public-website",
+                        "href": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-mit-setup/3554371808-228-24458"
+                    }
+                ],
+                "ad_url": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-mit-setup/3554371808-228-24458",
+                "views": null,
+                "created_at": "2026-10-27T20:28:00.000Z",
+                "status": "ACTIVE",
+                "deleted": false,
+                "seller": {
+                    "seller_id": "84057544",
+                    "name": null,
+                    "type": "PRIVATE",
+                    "account_type": "PRIVATE",
+                    "store_id": null,
+                    "store_title": null,
+                    "company_id": null,
+                    "since": null,
+                    "badges": []
+                },
+                "location": {
+                    "id": "24458",
+                    "name": "16909 Blumenthal",
+                    "city": "Blumenthal",
+                    "state": "Brandenburg",
+                    "zip": "16909",
+                    "latitude": 53.061783,
+                    "longitude": 12.32826,
+                    "radius": 5
+                },
+                "category": {
+                    "id": "228",
+                    "name": "PCs",
+                    "parent_id": null
+                },
+                "attributes": [
+                    {
+                        "name": "pcs.condition",
+                        "label": "Zustand",
+                        "values": [
+                            {
+                                "value": "ok",
+                                "label": "Gut"
+                            }
+                        ]
+                    }
+                ],
+                "details": {
+                    "Zustand": "Gut"
+                }
+            },
+            {
+                "ad_id": "3554369523",
+                "title": "Gaming PC zu verkaufen",
+                "description": "Gaming-PC zu verkaufen \u2013 guter gebrauchter Zustand Ich verkaufe meinen Gaming-PC in einem guten gebrauchten Zustand. Der PC funktioniert und eignet sich zum Gaming sowie f\u00fcr den normalen Alltag. Technische Daten: *...",
+                "price": {
+                    "amount": 400,
+                    "currency_code": "EUR",
+                    "currency_label": "\u20ac",
+                    "price_type": "PLEASE_CONTACT",
+                    "negotiable": false
+                },
+                "shipping_available": true,
+                "buy_now_available": false,
+                "images": [
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/27/2712034b-bf83-4e21-8ac4-3c11cb13f911?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/c8/c8697e34-acca-48a7-8de0-0c17df18e8be?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/b6/b6be5339-6239-4705-a6b0-98d5edf2fe71?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/af/af2bc902-ec25-40e5-aab9-201805c91263?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/f7/f702728e-16ea-4b50-8697-b2e6acf1c24e?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/3e/3e63a81f-7c95-4267-9285-1b19999039bc?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/b1/b159d0e8-aa81-42d9-b681-74d1aa10a956?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/96/96a5a335-f3bc-4e54-92b9-4a92fa6a5ae9?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/6d/6d509d3b-5901-4e1c-bd9c-b0f21516155d?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/e1/e167956f-26ae-4b35-bfa5-61520241b402?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/20/20932157-9394-4be7-868e-ba4d697ff1e5?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/04/049d0bd0-1992-4f6b-bd4d-d95457073174?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/69/69a08663-1b34-42dd-8aed-35f460b48bae?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/b4/b4d163fe-01e8-44e5-8fe4-c31f36329fd2?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/c7/c7c0d7da-dab5-4a52-840c-0a423a8230df?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/1f/1f4d4d9a-1d81-4cb1-bd3d-5befb0481f68?rule=$_57.AUTO"
+                ],
+                "links": [
+                    {
+                        "rel": "self-public-website",
+                        "href": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-zu-verkaufen/3554369523-228-1791"
+                    }
+                ],
+                "ad_url": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-zu-verkaufen/3554369523-228-1791",
+                "views": null,
+                "created_at": "2026-10-27T20:24:48.000Z",
+                "status": "ACTIVE",
+                "deleted": false,
+                "seller": {
+                    "seller_id": "167601754",
+                    "name": null,
+                    "type": "PRIVATE",
+                    "account_type": "PRIVATE",
+                    "store_id": null,
+                    "store_title": null,
+                    "company_id": null,
+                    "since": null,
+                    "badges": []
+                },
+                "location": {
+                    "id": "1791",
+                    "name": "41747 Viersen",
+                    "city": "Viersen",
+                    "state": "Nordrhein-Westfalen",
+                    "zip": "41747",
+                    "latitude": 51.252056,
+                    "longitude": 6.380321,
+                    "radius": 2.9
+                },
+                "category": {
+                    "id": "228",
+                    "name": "PCs",
+                    "parent_id": null
+                },
+                "attributes": [
+                    {
+                        "name": "pcs.condition",
+                        "label": "Zustand",
+                        "values": [
+                            {
+                                "value": "ok",
+                                "label": "Gut"
+                            }
+                        ]
+                    }
+                ],
+                "details": {
+                    "Zustand": "Gut"
+                }
+            },
+            {
+                "ad_id": "3554362888",
+                "title": "Ayaneo 2021 Pro AMD Ryzen 7 4800U 1TB Gaming Handheld Xbox PC",
+                "description": "Verkaufe hier eine Ayaneo Handheld Konsole im sehr Guten Zustand, Windows 11 (upgrade bar) AMD Ryzen 7 4800U 1TB SSD Akkulaufzeit bei Top games ca 3.5 std durchgehend, l\u00e4dt schnell auf und kann auch w\u00e4hrenddessen auch geladen...",
+                "price": {
+                    "amount": 399,
+                    "currency_code": "EUR",
+                    "currency_label": "\u20ac",
+                    "price_type": "SPECIFIED_AMOUNT",
+                    "negotiable": false
+                },
+                "shipping_available": true,
+                "buy_now_available": true,
+                "images": [
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/a7/a7b420d2-2e45-46b8-a434-313e1b9dbf9e?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/fc/fc7137c8-1384-4ba2-b595-4ae516c35638?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/86/86ed8590-74b6-4c5b-877a-f346ed3f19f3?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/1f/1f5b7263-c8c1-41a4-86bd-08252e6a821f?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/d9/d9487daf-96b0-40d8-845d-c12d0b825dd5?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/5e/5e8a2a5e-25fe-4709-afbf-88b087cb05e4?rule=$_57.AUTO"
+                ],
+                "links": [
+                    {
+                        "rel": "self-public-website",
+                        "href": "https://www.kleinanzeigen.de/s-anzeige/ayaneo-2021-pro-amd-ryzen-7-4800u-1tb-gaming-handheld-xbox-pc/3554362888-228-2650"
+                    }
+                ],
+                "ad_url": "https://www.kleinanzeigen.de/s-anzeige/ayaneo-2021-pro-amd-ryzen-7-4800u-1tb-gaming-handheld-xbox-pc/3554362888-228-2650",
+                "views": null,
+                "created_at": "2026-10-27T20:15:38.000Z",
+                "status": "ACTIVE",
+                "deleted": false,
+                "seller": {
+                    "seller_id": "59569418",
+                    "name": null,
+                    "type": "PRIVATE",
+                    "account_type": "PRIVATE",
+                    "store_id": null,
+                    "store_title": null,
+                    "company_id": null,
+                    "since": null,
+                    "badges": []
+                },
+                "location": {
+                    "id": "2650",
+                    "name": "28865 Lilienthal",
+                    "city": "Lilienthal",
+                    "state": "Niedersachsen",
+                    "zip": "28865",
+                    "latitude": 53.155586,
+                    "longitude": 8.897075,
+                    "radius": 6.77
+                },
+                "category": {
+                    "id": "228",
+                    "name": "PCs",
+                    "parent_id": null
+                },
+                "attributes": [
+                    {
+                        "name": "pcs.condition",
+                        "label": "Zustand",
+                        "values": [
+                            {
+                                "value": "like_new",
+                                "label": "Sehr Gut"
+                            }
+                        ]
+                    }
+                ],
+                "details": {
+                    "Zustand": "Sehr Gut"
+                }
+            },
+            {
+                "ad_id": "3554344558",
+                "title": "Gaming PC Einsteiger - 1TB SSD - 32GB RAM - GTX 1060 - Intel",
+                "description": "Biete hier meinen Gaming PC an. Er funktioniert einwandfrei. Intel Xeon E5 2689 Gigabyte NVIDIA GeForce GTX 1060 3GB 32GB RAM 1TB SSD Inklusive Sharkoon SKILLER SGK5 RGB Tastatur Nur Abholung. Kann Vorort...",
+                "price": {
+                    "amount": 350,
+                    "currency_code": "EUR",
+                    "currency_label": "\u20ac",
+                    "price_type": "PLEASE_CONTACT",
+                    "negotiable": false
+                },
+                "shipping_available": null,
+                "buy_now_available": false,
+                "images": [
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/0e/0edd0d26-987d-4b3d-a400-09839646a1cc?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/a0/a0c52f0a-4364-49a0-9317-959edf8a39db?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/11/115ae775-7ca4-42d8-89b8-8e3db6fbca53?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/9b/9b7401da-12cc-4aaf-9b7e-ccc1946b2338?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/21/211e431a-1140-4cfc-829f-9f10e9b490a8?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/45/452b4b22-891c-46fd-bd8d-fa1ed3437a2f?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ba/ba4626f1-bcef-4c15-b834-a5a72f37845d?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/1b/1bc552fd-b95b-4d1b-945e-ffd468d9b9fd?rule=$_57.AUTO"
+                ],
+                "links": [
+                    {
+                        "rel": "self-public-website",
+                        "href": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-einsteiger-1tb-ssd-32gb-ram-gtx-1060-intel/3554344558-228-4832"
+                    }
+                ],
+                "ad_url": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-einsteiger-1tb-ssd-32gb-ram-gtx-1060-intel/3554344558-228-4832",
+                "views": null,
+                "created_at": "2026-10-27T19:51:58.000Z",
+                "status": "ACTIVE",
+                "deleted": false,
+                "seller": {
+                    "seller_id": "152322151",
+                    "name": null,
+                    "type": "PRIVATE",
+                    "account_type": "PRIVATE",
+                    "store_id": null,
+                    "store_title": null,
+                    "company_id": null,
+                    "since": null,
+                    "badges": []
+                },
+                "location": {
+                    "id": "4832",
+                    "name": "35039 Marburg",
+                    "city": "Marburg",
+                    "state": "Hessen",
+                    "zip": "35039",
+                    "latitude": 50.832497,
+                    "longitude": 8.792735,
+                    "radius": 4.08
+                },
+                "category": {
+                    "id": "228",
+                    "name": "PCs",
+                    "parent_id": null
+                },
+                "attributes": [
+                    {
+                        "name": "pcs.condition",
+                        "label": "Zustand",
+                        "values": [
+                            {
+                                "value": "ok",
+                                "label": "Gut"
+                            }
+                        ]
+                    }
+                ],
+                "details": {
+                    "Zustand": "Gut"
+                }
+            },
+            {
+                "ad_id": "3554295292",
+                "title": "Gaming PC|RTX 4060 8Gb| i7-9700k| 16Gb RAM SSD",
+                "description": "Ich verkaufe meinen Gaming-PC mit folgenden Komponenten: \u2022Prozessor: Intel Core i7-9700K \u2022Grafikkarte: Palit GeForce RTX 4060 8 GB GDDR6 \u2022Mainboard: ASUS PRIME Z390-A \u2022 Arbeitsspeicher: 16 GB RAM \u2022SSD: 270 GB<br...",
+                "price": {
+                    "amount": 600,
+                    "currency_code": "EUR",
+                    "currency_label": "\u20ac",
+                    "price_type": "SPECIFIED_AMOUNT",
+                    "negotiable": false
+                },
+                "shipping_available": null,
+                "buy_now_available": false,
+                "images": [
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/6e/6eababcc-8dab-47bd-951f-33315236e2eb?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/bd/bd5d4d24-c5f8-4672-9b50-19161887ed02?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/38/3895eca9-1526-4900-a6c3-bc81be082aeb?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/bc/bc3de924-9b88-4144-99df-eebd86f6dcba?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/3e/3ed77080-a1f5-4408-a309-3f8b745ae1f0?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ff/ff0f2ada-a0a3-4119-8c1d-f811e2a3f9df?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/e1/e160ab9e-19ff-4f42-9d5a-812fc5e5ac93?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/cb/cb5c4773-cc5e-4e27-bde2-b4cb15a37dab?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/c9/c999561f-baff-4f96-8aed-9f56aa681d8d?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/89/89fe59a7-97a3-4b05-afea-3bb623c278b1?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/df/dfe4b861-11db-4d20-90d2-11636be78267?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/db/db5b906b-9a69-4d13-bd66-15c9bde604c4?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/62/622b5e64-66c6-4913-b855-014a9d6e7597?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/c7/c73879fa-cc80-4ea5-b99e-baec5bc2472e?rule=$_57.AUTO"
+                ],
+                "links": [
+                    {
+                        "rel": "self-public-website",
+                        "href": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-rtx-4060-8gb-i7-9700k-16gb-ram-ssd/3554295292-228-9351"
+                    }
+                ],
+                "ad_url": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-rtx-4060-8gb-i7-9700k-16gb-ram-ssd/3554295292-228-9351",
+                "views": null,
+                "created_at": "2026-10-27T19:50:27.000Z",
+                "status": "ACTIVE",
+                "deleted": false,
+                "seller": {
+                    "seller_id": "159991330",
+                    "name": null,
+                    "type": "PRIVATE",
+                    "account_type": "PRIVATE",
+                    "store_id": null,
+                    "store_title": null,
+                    "company_id": null,
+                    "since": null,
+                    "badges": []
+                },
+                "location": {
+                    "id": "9351",
+                    "name": "72762 Reutlingen",
+                    "city": "Reutlingen",
+                    "state": "Baden-W\u00fcrttemberg",
+                    "zip": "72762",
+                    "latitude": 48.4774,
+                    "longitude": 9.193615,
+                    "radius": 2.23
+                },
+                "category": {
+                    "id": "228",
+                    "name": "PCs",
+                    "parent_id": null
+                },
+                "attributes": [
+                    {
+                        "name": "pcs.condition",
+                        "label": "Zustand",
+                        "values": [
+                            {
+                                "value": "ok",
+                                "label": "Gut"
+                            }
+                        ]
+                    }
+                ],
+                "details": {
+                    "Zustand": "Gut"
+                }
+            },
+            {
+                "ad_id": "3554341978",
+                "title": "Captiva Advanced Gaming R69-324 PC Ryzen 5 5500 RTX 3050",
+                "description": "Ich verkaufe meinen Captiva Advanced Gaming R69-324 PC, der sich ideal f\u00fcr Gaming, Streaming und Multimedia eignet. - AMD Ryzen 5 5500 Prozessor (6 Kerne / 12 Threads) - NVIDIA GeForce RTX 3050 Grafikkarte mit 8 GB GDDR6 -...",
+                "price": {
+                    "amount": 550,
+                    "currency_code": "EUR",
+                    "currency_label": "\u20ac",
+                    "price_type": "PLEASE_CONTACT",
+                    "negotiable": false
+                },
+                "shipping_available": null,
+                "buy_now_available": false,
+                "images": [
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/14/143a557f-d1ae-44e1-87a6-fa298025f92d?rule=$_57.AUTO"
+                ],
+                "links": [
+                    {
+                        "rel": "self-public-website",
+                        "href": "https://www.kleinanzeigen.de/s-anzeige/captiva-advanced-gaming-r69-324-pc-ryzen-5-5500-rtx-3050/3554341978-228-1949"
+                    }
+                ],
+                "ad_url": "https://www.kleinanzeigen.de/s-anzeige/captiva-advanced-gaming-r69-324-pc-ryzen-5-5500-rtx-3050/3554341978-228-1949",
+                "views": null,
+                "created_at": "2026-10-27T19:48:55.000Z",
+                "status": "ACTIVE",
+                "deleted": false,
+                "seller": {
+                    "seller_id": "93690512",
+                    "name": null,
+                    "type": "PRIVATE",
+                    "account_type": "PRIVATE",
+                    "store_id": null,
+                    "store_title": null,
+                    "company_id": null,
+                    "since": null,
+                    "badges": []
+                },
+                "location": {
+                    "id": "1949",
+                    "name": "44799 Bochum-S\u00fcd",
+                    "city": "Bochum-S\u00fcd",
+                    "state": "Nordrhein-Westfalen",
+                    "zip": "44799",
+                    "latitude": 51.45273,
+                    "longitude": 7.231305,
+                    "radius": 1.93
+                },
+                "category": {
+                    "id": "228",
+                    "name": "PCs",
+                    "parent_id": null
+                },
+                "attributes": [
+                    {
+                        "name": "pcs.condition",
+                        "label": "Zustand",
+                        "values": [
+                            {
+                                "value": "like_new",
+                                "label": "Sehr Gut"
+                            }
+                        ]
+                    }
+                ],
+                "details": {
+                    "Zustand": "Sehr Gut"
+                }
+            },
+            {
+                "ad_id": "3554341461",
+                "title": "ASUS Gaming PC Tower mit RGB, ryzen 5 5600, radeon",
+                "description": "Ich verkaufe meinen Gaming PC, der durch sein auff\u00e4lliges Design mit RGB-Beleuchtung direkt ins Auge f\u00e4llt. Das Geh\u00e4use tr\u00e4gt das ASUS-Logo und bietet eine gute Basis f\u00fcr dein Gaming-Setup. - Geh\u00e4use mit ASUS-Branding - Integrierte...",
+                "price": {
+                    "amount": 350,
+                    "currency_code": "EUR",
+                    "currency_label": "\u20ac",
+                    "price_type": "PLEASE_CONTACT",
+                    "negotiable": false
+                },
+                "shipping_available": true,
+                "buy_now_available": false,
+                "images": [
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/00/003fb10a-1976-4176-87c2-a432e7e256e8?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/e8/e896ce0f-763c-44da-9330-28f3675984da?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/5b/5bd32f65-5c34-4e14-beab-929dd62e20d0?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/c6/c6a5cd5e-2441-4efb-814d-f3eaafbd74ff?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/14/14e363c6-20e9-43d9-90ce-6ea0d173b3b9?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/fb/fba153b6-fbfb-4ca6-857f-529439adce9c?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/de/de293e0f-8cbc-44cb-b1b8-6000bbab0033?rule=$_57.AUTO"
+                ],
+                "links": [
+                    {
+                        "rel": "self-public-website",
+                        "href": "https://www.kleinanzeigen.de/s-anzeige/asus-gaming-pc-tower-mit-rgb-ryzen-5-5600-radeon/3554341461-228-1125"
+                    }
+                ],
+                "ad_url": "https://www.kleinanzeigen.de/s-anzeige/asus-gaming-pc-tower-mit-rgb-ryzen-5-5600-radeon/3554341461-228-1125",
+                "views": null,
+                "created_at": "2026-10-27T19:48:18.000Z",
+                "status": "ACTIVE",
+                "deleted": false,
+                "seller": {
+                    "seller_id": "133523469",
+                    "name": null,
+                    "type": "PRIVATE",
+                    "account_type": "PRIVATE",
+                    "store_id": null,
+                    "store_title": null,
+                    "company_id": null,
+                    "since": null,
+                    "badges": []
+                },
+                "location": {
+                    "id": "1125",
+                    "name": "47533 Kleve",
+                    "city": "Kleve",
+                    "state": "Nordrhein-Westfalen",
+                    "zip": "47533",
+                    "latitude": 51.80916,
+                    "longitude": 6.128008,
+                    "radius": 4.59
+                },
+                "category": {
+                    "id": "228",
+                    "name": "PCs",
+                    "parent_id": null
+                },
+                "attributes": [],
+                "details": {}
+            },
+            {
+                "ad_id": "3554340735",
+                "title": "Gaming PC mit 32gb RAM, RTX 2070 Super, Ryzen 2600, auch Tausch",
+                "description": "Ich verkaufe meinen Gaming PC, der sich in einem guten Zustand befindet und frisch gewartet wurde. Die W\u00e4rmeleitpaste wurde erneuert, sodass er direkt einsatzbereit ist. Falls Sie tauschen wollen, dann erfolgt der Tausch nur gegen Laptops...",
+                "price": {
+                    "amount": 450,
+                    "currency_code": "EUR",
+                    "currency_label": "\u20ac",
+                    "price_type": "SPECIFIED_AMOUNT",
+                    "negotiable": false
+                },
+                "shipping_available": null,
+                "buy_now_available": false,
+                "images": [
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/98/983ee3bb-e1d5-40cf-ac94-a2ee3d28a656?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/0a/0a6aa593-8812-4843-9a42-352fde980d91?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/bd/bdf99d30-884e-44f0-b5cc-c36222d95bcd?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/f2/f24d3e2c-abb7-4ede-9cc5-cf957ee7bf45?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/da/da6bce4d-9014-4c4b-8a2f-503e6f315782?rule=$_57.AUTO"
+                ],
+                "links": [
+                    {
+                        "rel": "self-public-website",
+                        "href": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-mit-32gb-ram-rtx-2070-super-ryzen-2600-auch-tausch/3554340735-228-9281"
+                    }
+                ],
+                "ad_url": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-mit-32gb-ram-rtx-2070-super-ryzen-2600-auch-tausch/3554340735-228-9281",
+                "views": null,
+                "created_at": "2026-10-27T19:47:25.000Z",
+                "status": "ACTIVE",
+                "deleted": false,
+                "seller": {
+                    "seller_id": "119235182",
+                    "name": null,
+                    "type": "PRIVATE",
+                    "account_type": "PRIVATE",
+                    "store_id": null,
+                    "store_title": null,
+                    "company_id": null,
+                    "since": null,
+                    "badges": []
+                },
+                "location": {
+                    "id": "9281",
+                    "name": "70180 Stuttgart-S\u00fcd",
+                    "city": "Stuttgart-S\u00fcd",
+                    "state": "Baden-W\u00fcrttemberg",
+                    "zip": "70180",
+                    "latitude": 48.764313,
+                    "longitude": 9.175263,
+                    "radius": 0.54
+                },
+                "category": {
+                    "id": "228",
+                    "name": "PCs",
+                    "parent_id": null
+                },
+                "attributes": [
+                    {
+                        "name": "pcs.condition",
+                        "label": "Zustand",
+                        "values": [
+                            {
+                                "value": "ok",
+                                "label": "Gut"
+                            }
+                        ]
+                    }
+                ],
+                "details": {
+                    "Zustand": "Gut"
+                }
+            },
+            {
+                "ad_id": "3554338030",
+                "title": "Gaming PC: Intel i7 + Strix RX 580 8GB + 16GB RAM + 512 GB SSD",
+                "description": "Hallo, verkauft wird ein neu zusammengestellter PC. -Das System wurde in einem nagelneuen Geh\u00e4use von AeroCool verbaut. -Neue RGB-L\u00fcfter sorgen f\u00fcr eine tolle Optik und echte Hingucker! :) -Ein hochwertiger CPU-K\u00fchler...",
+                "price": {
+                    "amount": 400,
+                    "currency_code": "EUR",
+                    "currency_label": "\u20ac",
+                    "price_type": "SPECIFIED_AMOUNT",
+                    "negotiable": false
+                },
+                "shipping_available": true,
+                "buy_now_available": false,
+                "images": [
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/80/8042fa2b-06ea-4441-891f-ba39d8f4309e?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/41/417ff230-e645-4285-a600-cff9a3f90d43?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/56/561d61bc-8fa0-459e-b23c-8f95e7d9a8e4?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/85/855a54cd-4d57-4c5b-b20b-5b3795a37829?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/cc/cc7c48b4-cd14-4554-a0ed-836b45ecc1ca?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/b4/b4ea5db0-c227-48c7-a2dd-4b11ccdd918d?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/2a/2a0b55b3-7968-43a2-882d-9c27e048490e?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ae/aeb52bb7-9dcb-4a50-9149-65e5ea795487?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/3e/3e966ae4-1375-433e-ba29-bbd994d9ff43?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/6e/6ea48272-de1d-43f3-9d50-af5167a42f77?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/cb/cbc8203a-0f1a-4330-94c9-761aa288d426?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/a8/a8f4d276-5e19-42fe-a92b-94a7b4f26d3b?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/c1/c16c571b-6b85-463c-acd7-ab3e0f1b638a?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/f6/f63a44d0-5d10-45fe-9574-7783dc464a82?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/1f/1fc60636-ea06-4fab-9717-1574bc68314a?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/e7/e75cac29-bb68-4fa2-a188-bd2fbcd180cf?rule=$_57.AUTO"
+                ],
+                "links": [
+                    {
+                        "rel": "self-public-website",
+                        "href": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-intel-i7-strix-rx-580-8gb-16gb-ram-512-gb-ssd/3554338030-228-9341"
+                    }
+                ],
+                "ad_url": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-intel-i7-strix-rx-580-8gb-16gb-ram-512-gb-ssd/3554338030-228-9341",
+                "views": null,
+                "created_at": "2026-10-27T19:44:11.000Z",
+                "status": "ACTIVE",
+                "deleted": false,
+                "seller": {
+                    "seller_id": "72428119",
+                    "name": null,
+                    "type": "PRIVATE",
+                    "account_type": "PRIVATE",
+                    "store_id": null,
+                    "store_title": null,
+                    "company_id": null,
+                    "since": null,
+                    "badges": []
+                },
+                "location": {
+                    "id": "9341",
+                    "name": "89079 Ulm",
+                    "city": "Ulm",
+                    "state": "Baden-W\u00fcrttemberg",
+                    "zip": "89079",
+                    "latitude": 48.338844,
+                    "longitude": 9.946418,
+                    "radius": 6.2
+                },
+                "category": {
+                    "id": "228",
+                    "name": "PCs",
+                    "parent_id": null
+                },
+                "attributes": [
+                    {
+                        "name": "pcs.condition",
+                        "label": "Zustand",
+                        "values": [
+                            {
+                                "value": "like_new",
+                                "label": "Sehr Gut"
+                            }
+                        ]
+                    }
+                ],
+                "details": {
+                    "Zustand": "Sehr Gut"
+                }
+            },
+            {
+                "ad_id": "3554335734",
+                "title": "Gaming-PC | RTX 2060 Super | Ryzen 7 3700X | 16 GB RAM | 1 TB SSD",
+                "description": "Ich verkaufe meinen Gaming-PC aus dem Jahr 2020. Er wurde insgesamt etwa drei bis vier Jahre genutzt und ist technisch einwandfrei und voll funktionsf\u00e4hig. Technische Daten: * Grafikkarte: Gigabyte GeForce RTX 2060 Super...",
+                "price": {
+                    "amount": 549,
+                    "currency_code": "EUR",
+                    "currency_label": "\u20ac",
+                    "price_type": "PLEASE_CONTACT",
+                    "negotiable": false
+                },
+                "shipping_available": null,
+                "buy_now_available": false,
+                "images": [
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/8e/8e2d4964-afa5-4d1c-bfdf-e46471cdc0c7?rule=$_57.AUTO"
+                ],
+                "links": [
+                    {
+                        "rel": "self-public-website",
+                        "href": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-rtx-2060-super-ryzen-7-3700x-16-gb-ram-1-tb-ssd/3554335734-228-4466"
+                    }
+                ],
+                "ad_url": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-rtx-2060-super-ryzen-7-3700x-16-gb-ram-1-tb-ssd/3554335734-228-4466",
+                "views": null,
+                "created_at": "2026-10-27T19:41:55.000Z",
+                "status": "ACTIVE",
+                "deleted": false,
+                "seller": {
+                    "seller_id": "167817086",
+                    "name": null,
+                    "type": "PRIVATE",
+                    "account_type": "PRIVATE",
+                    "store_id": null,
+                    "store_title": null,
+                    "company_id": null,
+                    "since": null,
+                    "badges": []
+                },
+                "location": {
+                    "id": "4466",
+                    "name": "67575 Eich",
+                    "city": "Eich",
+                    "state": "Rheinland-Pfalz",
+                    "zip": "67575",
+                    "latitude": 49.74977,
+                    "longitude": 8.406403,
+                    "radius": 2.84
+                },
+                "category": {
+                    "id": "228",
+                    "name": "PCs",
+                    "parent_id": null
+                },
+                "attributes": [
+                    {
+                        "name": "pcs.condition",
+                        "label": "Zustand",
+                        "values": [
+                            {
+                                "value": "like_new",
+                                "label": "Sehr Gut"
+                            }
+                        ]
+                    }
+                ],
+                "details": {
+                    "Zustand": "Sehr Gut"
+                }
+            },
+            {
+                "ad_id": "3554288039",
+                "title": "Gaming pc zu gut",
+                "description": "Gaming PC RTX 5060 \u2013 8-Kern Ryzen \u2013 RGB \u2013 Sehr leise! Ich verkaufe meinen Gaming-PC, der sich perfekt zum Zocken eignet. Der PC bietet starke Gaming-Leistung, eine coole RGB-Beleuchtung mit verschiedenen Farben und l\u00e4uft angenehm...",
+                "price": {
+                    "amount": 600,
+                    "currency_code": "EUR",
+                    "currency_label": "\u20ac",
+                    "price_type": "PLEASE_CONTACT",
+                    "negotiable": false
+                },
+                "shipping_available": true,
+                "buy_now_available": true,
+                "images": [
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/fd/fdf5ca19-9bc9-4086-b87e-0116d3fb8931?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/49/4962f698-b74f-4b72-a855-af79969eedee?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/85/850f2e63-dcfd-4514-baa3-90f3d433cd50?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ba/ba254dcc-ba7a-4a3c-aee5-a4d79905a458?rule=$_57.AUTO"
+                ],
+                "links": [
+                    {
+                        "rel": "self-public-website",
+                        "href": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-zu-gut/3554288039-228-9193"
+                    }
+                ],
+                "ad_url": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-zu-gut/3554288039-228-9193",
+                "views": null,
+                "created_at": "2026-10-27T19:37:03.000Z",
+                "status": "ACTIVE",
+                "deleted": false,
+                "seller": {
+                    "seller_id": "166692427",
+                    "name": null,
+                    "type": "PRIVATE",
+                    "account_type": "PRIVATE",
+                    "store_id": null,
+                    "store_title": null,
+                    "company_id": null,
+                    "since": null,
+                    "badges": []
+                },
+                "location": {
+                    "id": "9193",
+                    "name": "76135 Karlsruhe",
+                    "city": "Karlsruhe",
+                    "state": "Baden-W\u00fcrttemberg",
+                    "zip": "76135",
+                    "latitude": 48.99229,
+                    "longitude": 8.383167,
+                    "radius": 2.39
+                },
+                "category": {
+                    "id": "228",
+                    "name": "PCs",
+                    "parent_id": null
+                },
+                "attributes": [
+                    {
+                        "name": "pcs.condition",
+                        "label": "Zustand",
+                        "values": [
+                            {
+                                "value": "like_new",
+                                "label": "Sehr Gut"
+                            }
+                        ]
+                    }
+                ],
+                "details": {
+                    "Zustand": "Sehr Gut"
+                }
+            },
+            {
+                "ad_id": "3554329362",
+                "title": "Gaming-PC mit GTX 1660 Ti, i7 und 24 GB RAM \u2013 499 \u20ac VB",
+                "description": "Ich verkaufe meinen Gaming-PC mit folgenden Komponenten: Technische Daten * Prozessor: Intel Core i7-4930K * Grafikkarte: NVIDIA GeForce GTX 1660 Ti mit 6 GB VRAM * Arbeitsspeicher: 24 GB DDR3 RAM * Speicher: 500...",
+                "price": {
+                    "amount": 499,
+                    "currency_code": "EUR",
+                    "currency_label": "\u20ac",
+                    "price_type": "PLEASE_CONTACT",
+                    "negotiable": false
+                },
+                "shipping_available": null,
+                "buy_now_available": false,
+                "images": [
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/3b/3b5734fc-cb1c-41f0-8675-02c7febd0998?rule=$_57.AUTO"
+                ],
+                "links": [
+                    {
+                        "rel": "self-public-website",
+                        "href": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-mit-gtx-1660-ti-i7-und-24-gb-ram-499-vb/3554329362-228-3459"
+                    }
+                ],
+                "ad_url": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-mit-gtx-1660-ti-i7-und-24-gb-ram-499-vb/3554329362-228-3459",
+                "views": null,
+                "created_at": "2026-10-27T19:33:48.000Z",
+                "status": "ACTIVE",
+                "deleted": false,
+                "seller": {
+                    "seller_id": "88441084",
+                    "name": null,
+                    "type": "PRIVATE",
+                    "account_type": "PRIVATE",
+                    "store_id": null,
+                    "store_title": null,
+                    "company_id": null,
+                    "since": null,
+                    "badges": []
+                },
+                "location": {
+                    "id": "3459",
+                    "name": "13439 Reinickendorf",
+                    "city": "Reinickendorf",
+                    "state": "Berlin",
+                    "zip": "13439",
+                    "latitude": 52.59939,
+                    "longitude": 13.364106,
+                    "radius": 1.51
+                },
+                "category": {
+                    "id": "228",
+                    "name": "PCs",
+                    "parent_id": null
+                },
+                "attributes": [
+                    {
+                        "name": "pcs.condition",
+                        "label": "Zustand",
+                        "values": [
+                            {
+                                "value": "like_new",
+                                "label": "Sehr Gut"
+                            }
+                        ]
+                    }
+                ],
+                "details": {
+                    "Zustand": "Sehr Gut"
+                }
+            },
+            {
+                "ad_id": "3554318109",
+                "title": "Gaming Pc Asus Mainboard Am4 AMD Ryzen 5 5600 g 16 Gb usw.",
+                "description": "Es handelt sich um ein Pc perfekt f\u00fcrs zocken im Alltag es befindet sich eingebaut ein Nzxt Netzteil ein Am4 Mainboard von Asus Ein AMD Ryzen 5 5600 eine AMD Radeon Rx 580 Grafikkarte 1 tb Speicher 16 gb ram",
+                "price": {
+                    "amount": 400,
+                    "currency_code": "EUR",
+                    "currency_label": "\u20ac",
+                    "price_type": "PLEASE_CONTACT",
+                    "negotiable": false
+                },
+                "shipping_available": null,
+                "buy_now_available": false,
+                "images": [
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/5c/5c080026-fbee-44bf-86a3-f45087b5ac28?rule=$_57.AUTO"
+                ],
+                "links": [
+                    {
+                        "rel": "self-public-website",
+                        "href": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-asus-mainboard-am4-amd-ryzen-5-5600-g-16-gb-usw-/3554318109-228-2449"
+                    }
+                ],
+                "ad_url": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-asus-mainboard-am4-amd-ryzen-5-5600-g-16-gb-usw-/3554318109-228-2449",
+                "views": null,
+                "created_at": "2026-10-27T19:20:30.000Z",
+                "status": "ACTIVE",
+                "deleted": false,
+                "seller": {
+                    "seller_id": "140700722",
+                    "name": null,
+                    "type": "PRIVATE",
+                    "account_type": "PRIVATE",
+                    "store_id": null,
+                    "store_title": null,
+                    "company_id": null,
+                    "since": null,
+                    "badges": []
+                },
+                "location": {
+                    "id": "2449",
+                    "name": "38110 Braunschweig",
+                    "city": "Braunschweig",
+                    "state": "Niedersachsen",
+                    "zip": "38110",
+                    "latitude": 52.332203,
+                    "longitude": 10.559026,
+                    "radius": 2.94
+                },
+                "category": {
+                    "id": "228",
+                    "name": "PCs",
+                    "parent_id": null
+                },
+                "attributes": [
+                    {
+                        "name": "pcs.condition",
+                        "label": "Zustand",
+                        "values": [
+                            {
+                                "value": "ok",
+                                "label": "Gut"
+                            }
+                        ]
+                    }
+                ],
+                "details": {
+                    "Zustand": "Gut"
+                }
+            },
+            {
+                "ad_id": "3554312718",
+                "title": "Gaming-PC mit RGB Beleucht., Wasserk\u00fchlung & RX 5700XT - 16GB RAM",
+                "description": "Ich verkaufe meinen Gaming-PC mit stylischem Geh\u00e4use, RGB-Beleuchtung und verbauter Wasserk\u00fchlung. Der PC verf\u00fcgt \u00fcber einen Intel Core i7-Prozessor sowie eine AMD Radeon RX 5700 XT mit 8 GB Grafikspeicher und eignet sich ideal zum Gaming sowie f\u00fc...",
+                "price": {
+                    "amount": 750,
+                    "currency_code": "EUR",
+                    "currency_label": "\u20ac",
+                    "price_type": "SPECIFIED_AMOUNT",
+                    "negotiable": false
+                },
+                "shipping_available": true,
+                "buy_now_available": false,
+                "images": [
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/9e/9e7dd066-678d-4fb2-95d6-b65b6b84b9b9?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/5c/5cc6ed5f-fb17-4a7f-a910-a5378df93ae9?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/49/499561b0-10a4-445f-875b-0d5d34e25c8d?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/4c/4ce8c2de-e0f8-42a7-940a-9a6cda917f51?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/e8/e89e7302-f994-4758-b246-83c1300a46e7?rule=$_57.AUTO"
+                ],
+                "links": [
+                    {
+                        "rel": "self-public-website",
+                        "href": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-mit-rgb-beleucht-wasserkuehlung-rx-5700xt-16gb-ram/3554312718-228-2155"
+                    }
+                ],
+                "ad_url": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-mit-rgb-beleucht-wasserkuehlung-rx-5700xt-16gb-ram/3554312718-228-2155",
+                "views": null,
+                "created_at": "2026-10-27T19:14:11.000Z",
+                "status": "ACTIVE",
+                "deleted": false,
+                "seller": {
+                    "seller_id": "91409776",
+                    "name": null,
+                    "type": "PRIVATE",
+                    "account_type": "PRIVATE",
+                    "store_id": null,
+                    "store_title": null,
+                    "company_id": null,
+                    "since": null,
+                    "badges": []
+                },
+                "location": {
+                    "id": "2155",
+                    "name": "47137 Meiderich/Beeck",
+                    "city": "Meiderich/Beeck",
+                    "state": "Nordrhein-Westfalen",
+                    "zip": "47137",
+                    "latitude": 51.46998,
+                    "longitude": 6.766543,
+                    "radius": 2.62
+                },
+                "category": {
+                    "id": "228",
+                    "name": "PCs",
+                    "parent_id": null
+                },
+                "attributes": [
+                    {
+                        "name": "pcs.condition",
+                        "label": "Zustand",
+                        "values": [
+                            {
+                                "value": "like_new",
+                                "label": "Sehr Gut"
+                            }
+                        ]
+                    }
+                ],
+                "details": {
+                    "Zustand": "Sehr Gut"
+                }
+            },
+            {
+                "ad_id": "3524987478",
+                "title": "Gaming Pc AMD Ryzen 5 2500G 3,6GHZ R9 390 8GB",
+                "description": "****TOP ANGEBOT NUR BEI HANDY SHOP EXPRESS ***** Gaming Pc Windows 11 AMD 5 2400G 3,60GHZ 16GB Ram 1TB SSD R9 390 8GB Vram DEUTSCHE WARE 6 MONATE GARANTIE BEIM HERSTELLER SELBST...",
+                "price": {
+                    "amount": 299,
+                    "currency_code": "EUR",
+                    "currency_label": "\u20ac",
+                    "price_type": "SPECIFIED_AMOUNT",
+                    "negotiable": false
+                },
+                "shipping_available": null,
+                "buy_now_available": false,
+                "images": [
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/09/09aeb149-655d-4b7b-958a-5afc925bac13?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/f2/f2ab637e-ad89-48e1-b62b-3e0f3979e6b3?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/68/68be2d3b-d8b1-41ac-9bc0-58f325789d77?rule=$_57.AUTO"
+                ],
+                "links": [
+                    {
+                        "rel": "self-public-website",
+                        "href": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-amd-ryzen-5-2500g-3-6ghz-r9-390-8gb/3524987478-228-4896"
+                    }
+                ],
+                "ad_url": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-amd-ryzen-5-2500g-3-6ghz-r9-390-8gb/3524987478-228-4896",
+                "views": null,
+                "created_at": "2026-10-27T19:08:14.000Z",
+                "status": "ACTIVE",
+                "deleted": false,
+                "seller": {
+                    "seller_id": "144004178",
+                    "name": "Handyshop Darmstadt",
+                    "type": "COMMERCIAL",
+                    "account_type": "PRO",
+                    "store_id": "158601",
+                    "store_title": "Handyshop Darmstadt",
+                    "company_id": null,
+                    "since": null,
+                    "badges": []
+                },
+                "location": {
+                    "id": "4896",
+                    "name": "64283 Darmstadt",
+                    "city": "Darmstadt",
+                    "state": "Hessen",
+                    "zip": "64283",
+                    "latitude": 49.87119,
+                    "longitude": 8.650946,
+                    "radius": 1.76
+                },
+                "category": {
+                    "id": "228",
+                    "name": "PCs",
+                    "parent_id": null
+                },
+                "attributes": [
+                    {
+                        "name": "pcs.condition",
+                        "label": "Zustand",
+                        "values": [
+                            {
+                                "value": "like_new",
+                                "label": "Sehr Gut"
+                            }
+                        ]
+                    }
+                ],
+                "details": {
+                    "Zustand": "Sehr Gut"
+                }
+            },
+            {
+                "ad_id": "3554302603",
+                "title": "Gaming PC AMD Ryzen 7 2700X, Intel Arc B570, 16GB RAM, 1TB SSD",
+                "description": "Ich verkaufe einen leistungsstarken Gaming-PC, dessen technische Daten du dem beigef\u00fcgten System-\u00dcberblick entnehmen kannst. - Prozessor: AMD Ryzen 7 2700X - Mainboard: ASRock AB350 Pro4 - Grafikkarte: Intel Arc B570 mit 10GB...",
+                "price": {
+                    "amount": 400,
+                    "currency_code": "EUR",
+                    "currency_label": "\u20ac",
+                    "price_type": "PLEASE_CONTACT",
+                    "negotiable": false
+                },
+                "shipping_available": null,
+                "buy_now_available": false,
+                "images": [
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/8a/8a477ef8-1142-4c82-8016-b7505e226aa1?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/cb/cb38b528-facc-4809-859a-9db6b0597414?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/b4/b43acac8-b3cc-4bc0-bbf4-04b04eeec464?rule=$_57.AUTO"
+                ],
+                "links": [
+                    {
+                        "rel": "self-public-website",
+                        "href": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-amd-ryzen-7-2700x-intel-arc-b570-16gb-ram-1tb-ssd/3554302603-228-6236"
+                    }
+                ],
+                "ad_url": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-amd-ryzen-7-2700x-intel-arc-b570-16gb-ram-1tb-ssd/3554302603-228-6236",
+                "views": null,
+                "created_at": "2026-10-27T19:02:35.000Z",
+                "status": "ACTIVE",
+                "deleted": false,
+                "seller": {
+                    "seller_id": "22464814",
+                    "name": null,
+                    "type": "PRIVATE",
+                    "account_type": "PRIVATE",
+                    "store_id": null,
+                    "store_title": null,
+                    "company_id": null,
+                    "since": null,
+                    "badges": []
+                },
+                "location": {
+                    "id": "6236",
+                    "name": "93343 Essing",
+                    "city": "Essing",
+                    "state": "Bayern",
+                    "zip": "93343",
+                    "latitude": 48.937218,
+                    "longitude": 11.808375,
+                    "radius": 5.18
+                },
+                "category": {
+                    "id": "228",
+                    "name": "PCs",
+                    "parent_id": null
+                },
+                "attributes": [
+                    {
+                        "name": "pcs.condition",
+                        "label": "Zustand",
+                        "values": [
+                            {
+                                "value": "like_new",
+                                "label": "Sehr Gut"
+                            }
+                        ]
+                    }
+                ],
+                "details": {
+                    "Zustand": "Sehr Gut"
+                }
+            },
+            {
+                "ad_id": "3554295838",
+                "title": "Gaming-PC RTX 4060 / Ryzen 7 5700X3D / 32 GB RAM",
+                "description": "Ich verkaufe meinen leistungsstarken Gaming-PC in einem sehr guten, nahezu neuwertigen Zustand. Der PC ist unter einem Jahr alt, wurde gepflegt und funktioniert einwandfrei. Alle Komponenten laufen problemlos. Windows 11 Pro ist bereits...",
+                "price": {
+                    "amount": 750,
+                    "currency_code": "EUR",
+                    "currency_label": "\u20ac",
+                    "price_type": "PLEASE_CONTACT",
+                    "negotiable": false
+                },
+                "shipping_available": null,
+                "buy_now_available": false,
+                "images": [
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/60/6046efbb-c664-413e-abd6-40711a2a0ee8?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/8b/8bbc748f-57af-48ba-94af-e9e7cb0e6fd1?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/70/70f2d6eb-2dcf-44be-8583-933df51df909?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/8a/8a071173-b3b1-442e-9993-172c51341425?rule=$_57.AUTO"
+                ],
+                "links": [
+                    {
+                        "rel": "self-public-website",
+                        "href": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-rtx-4060-ryzen-7-5700x3d-32-gb-ram/3554295838-228-7827"
+                    }
+                ],
+                "ad_url": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-rtx-4060-ryzen-7-5700x3d-32-gb-ram/3554295838-228-7827",
+                "views": null,
+                "created_at": "2026-10-27T18:54:52.000Z",
+                "status": "ACTIVE",
+                "deleted": false,
+                "seller": {
+                    "seller_id": "161113255",
+                    "name": null,
+                    "type": "PRIVATE",
+                    "account_type": "PRIVATE",
+                    "store_id": null,
+                    "store_title": null,
+                    "company_id": null,
+                    "since": null,
+                    "badges": []
+                },
+                "location": {
+                    "id": "7827",
+                    "name": "17291 Prenzlau",
+                    "city": "Prenzlau",
+                    "state": "Brandenburg",
+                    "zip": "17291",
+                    "latitude": 53.3194,
+                    "longitude": 13.872478,
+                    "radius": 19.63
+                },
+                "category": {
+                    "id": "228",
+                    "name": "PCs",
+                    "parent_id": null
+                },
+                "attributes": [
+                    {
+                        "name": "pcs.condition",
+                        "label": "Zustand",
+                        "values": [
+                            {
+                                "value": "like_new",
+                                "label": "Sehr Gut"
+                            }
+                        ]
+                    }
+                ],
+                "details": {
+                    "Zustand": "Sehr Gut"
+                }
+            },
+            {
+                "ad_id": "3554262083",
+                "title": "Gaming PC | RTX 3060 Ti | Ryzen 5 3600 | 16GB | LCD-Wasserk\u00fchlung",
+                "description": "Moin! Ich verkaufe hier meinen Gaming-PC. Dank der leistungsstarken RTX 3060 Ti und dem 6-Kerner Ryzen 5 3600 laufen Fortnite, Valorant, CS2, Warzone oder GTA V in Full HD auf hohen Einstellungen mit hohen FPS. Auch in WQHD macht er...",
+                "price": {
+                    "amount": 699,
+                    "currency_code": "EUR",
+                    "currency_label": "\u20ac",
+                    "price_type": "PLEASE_CONTACT",
+                    "negotiable": false
+                },
+                "shipping_available": true,
+                "buy_now_available": false,
+                "images": [
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/a8/a88a6e73-cfb3-4411-8dcf-f42d93745504?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/cc/cc1353c7-db8b-44de-9561-d381684c1a32?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/62/62aeb7aa-090d-4461-9d16-cf520d596c08?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/83/83d99ea3-5204-4931-951b-a8bfd6106fba?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/5c/5c526888-38ee-4953-8f92-0b6908a3dda1?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/7c/7ca50865-f252-4714-9b85-fd03328cd12d?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ee/ee13e9cd-66e8-42ca-b5e0-539358f4b1d3?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/76/76a08701-84e0-464e-b0eb-91c6fa51b27a?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/8a/8a66a15c-1e98-48f0-aaff-e9a1846f3ed5?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/a5/a5d2fc96-7539-4c53-82f9-1aa1b995b046?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/38/38658265-73e5-4dd3-9eb0-79643ded2e14?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/bd/bd580781-47e2-4da7-86a4-d62b62d2d474?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/11/11881203-3892-4906-957f-4f0156b67eb9?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/50/50eaefdd-0827-4f72-8615-bd334881c58f?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ac/acab261c-91ff-4298-b165-611f017b62d3?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ea/ea898830-25e7-4d66-bc6d-47a367847b52?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/75/750e0b3e-b966-4d86-bc54-60559b81bcea?rule=$_57.AUTO"
+                ],
+                "links": [
+                    {
+                        "rel": "self-public-website",
+                        "href": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-rtx-3060-ti-ryzen-5-3600-16gb-lcd-wasserkuehlung/3554262083-228-4776"
+                    }
+                ],
+                "ad_url": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-rtx-3060-ti-ryzen-5-3600-16gb-lcd-wasserkuehlung/3554262083-228-4776",
+                "views": null,
+                "created_at": "2026-10-27T18:52:18.000Z",
+                "status": "ACTIVE",
+                "deleted": false,
+                "seller": {
+                    "seller_id": "138391098",
+                    "name": null,
+                    "type": "PRIVATE",
+                    "account_type": "PRIVATE",
+                    "store_id": null,
+                    "store_title": null,
+                    "company_id": null,
+                    "since": null,
+                    "badges": []
+                },
+                "location": {
+                    "id": "4776",
+                    "name": "64646 Heppenheim (Bergstra\u00dfe)",
+                    "city": "Heppenheim (Bergstra\u00dfe)",
+                    "state": "Hessen",
+                    "zip": "64646",
+                    "latitude": 49.643017,
+                    "longitude": 8.667542,
+                    "radius": 4.59
+                },
+                "category": {
+                    "id": "228",
+                    "name": "PCs",
+                    "parent_id": null
+                },
+                "attributes": [
+                    {
+                        "name": "pcs.condition",
+                        "label": "Zustand",
+                        "values": [
+                            {
+                                "value": "like_new",
+                                "label": "Sehr Gut"
+                            }
+                        ]
+                    }
+                ],
+                "details": {
+                    "Zustand": "Sehr Gut"
+                }
+            },
+            {
+                "ad_id": "3554292264",
+                "title": "Gaming PC \u2013 Intel i9-9900K | GTX 1080 Ti 11GB | 64GB RAM | Lian L",
+                "description": "Ich verkaufe meinen leistungsstarken Gaming-PC mit hochwertigem Geh\u00e4use und RGB-Beleuchtung. Technische Daten: CPU: Intel Core i9-9900K Grafikkarte: AORUS GeForce GTX 1080 Ti 11GB Extreme Arbeitsspeicher:...",
+                "price": {
+                    "amount": 700,
+                    "currency_code": "EUR",
+                    "currency_label": "\u20ac",
+                    "price_type": "SPECIFIED_AMOUNT",
+                    "negotiable": false
+                },
+                "shipping_available": true,
+                "buy_now_available": false,
+                "images": [
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/0e/0ead13a2-d035-4f23-8e4c-5bc7d7d7e9a7?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/49/490c7def-5fdf-4c86-b4c2-76493c2d7350?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/4b/4bcc3cda-94a5-4f67-863e-e028e7990d57?rule=$_57.AUTO"
+                ],
+                "links": [
+                    {
+                        "rel": "self-public-website",
+                        "href": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-intel-i9-9900k-gtx-1080-ti-11gb-64gb-ram-lian-l/3554292264-228-6283"
+                    }
+                ],
+                "ad_url": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-intel-i9-9900k-gtx-1080-ti-11gb-64gb-ram-lian-l/3554292264-228-6283",
+                "views": null,
+                "created_at": "2026-10-27T18:51:10.000Z",
+                "status": "ACTIVE",
+                "deleted": false,
+                "seller": {
+                    "seller_id": "54838862",
+                    "name": null,
+                    "type": "PRIVATE",
+                    "account_type": "PRIVATE",
+                    "store_id": null,
+                    "store_title": null,
+                    "company_id": null,
+                    "since": null,
+                    "badges": []
+                },
+                "location": {
+                    "id": "6283",
+                    "name": "91286 Obertrubach",
+                    "city": "Obertrubach",
+                    "state": "Bayern",
+                    "zip": "91286",
+                    "latitude": 49.699093,
+                    "longitude": 11.339661,
+                    "radius": 4.43
+                },
+                "category": {
+                    "id": "228",
+                    "name": "PCs",
+                    "parent_id": null
+                },
+                "attributes": [
+                    {
+                        "name": "pcs.condition",
+                        "label": "Zustand",
+                        "values": [
+                            {
+                                "value": "ok",
+                                "label": "Gut"
+                            }
+                        ]
+                    }
+                ],
+                "details": {
+                    "Zustand": "Gut"
+                }
+            },
+            {
+                "ad_id": "3554287950",
+                "title": "Gaming-PC mit AMD Ryzen 7, Radeon RX 6700 XT und 32 GB RAM",
+                "description": "Hallo zusammen, ich verkaufe meinen Gaming-PC, da ich auf ein neues High-End-System umsteigen m\u00f6chte. Der PC bietet eine gute Gaming-Leistung und eignet sich besonders f\u00fcr Full-HD-Gaming mit hohen Bildraten. Neben...",
+                "price": {
+                    "amount": 749,
+                    "currency_code": "EUR",
+                    "currency_label": "\u20ac",
+                    "price_type": "SPECIFIED_AMOUNT",
+                    "negotiable": false
+                },
+                "shipping_available": true,
+                "buy_now_available": false,
+                "images": [
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/52/52750556-5419-44be-801f-9b702d73d74d?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/34/34043130-c8a8-47a6-ac1c-75861a17de6c?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/c2/c2ff7ebf-9c84-4390-adbe-7b8147f78a3e?rule=$_57.AUTO"
+                ],
+                "links": [
+                    {
+                        "rel": "self-public-website",
+                        "href": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-mit-amd-ryzen-7-radeon-rx-6700-xt-und-32-gb-ram/3554287950-228-7597"
+                    }
+                ],
+                "ad_url": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-mit-amd-ryzen-7-radeon-rx-6700-xt-und-32-gb-ram/3554287950-228-7597",
+                "views": null,
+                "created_at": "2026-10-27T18:46:13.000Z",
+                "status": "ACTIVE",
+                "deleted": false,
+                "seller": {
+                    "seller_id": "8022493",
+                    "name": null,
+                    "type": "PRIVATE",
+                    "account_type": "PRIVATE",
+                    "store_id": null,
+                    "store_title": null,
+                    "company_id": null,
+                    "since": null,
+                    "badges": []
+                },
+                "location": {
+                    "id": "7597",
+                    "name": "85120 Hepberg",
+                    "city": "Hepberg",
+                    "state": "Bayern",
+                    "zip": "85120",
+                    "latitude": 48.827103,
+                    "longitude": 11.462599,
+                    "radius": 2
+                },
+                "category": {
+                    "id": "228",
+                    "name": "PCs",
+                    "parent_id": null
+                },
+                "attributes": [
+                    {
+                        "name": "pcs.condition",
+                        "label": "Zustand",
+                        "values": [
+                            {
+                                "value": "like_new",
+                                "label": "Sehr Gut"
+                            }
+                        ]
+                    }
+                ],
+                "details": {
+                    "Zustand": "Sehr Gut"
+                }
+            },
+            {
+                "ad_id": "3554287739",
+                "title": "Gaming pc sehr guter Zustand (tausch w\u00fcrde gehen)",
+                "description": "Der gaming pc ist in einen guten Zustand Rtx 3050 8gb oc Amd ryzen 3 3200g 32gb ddr4 1tb nvme Ausus prime motherboard",
+                "price": {
+                    "amount": 400,
+                    "currency_code": "EUR",
+                    "currency_label": "\u20ac",
+                    "price_type": "PLEASE_CONTACT",
+                    "negotiable": false
+                },
+                "shipping_available": true,
+                "buy_now_available": false,
+                "images": [
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/a4/a472b7eb-9da5-4c1b-bd32-689cbc7e135a?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/e1/e17dd513-7c71-4104-8f1d-eb81fc6158d3?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/67/67e2836f-cd3c-4698-8527-55b52462c118?rule=$_57.AUTO"
+                ],
+                "links": [
+                    {
+                        "rel": "self-public-website",
+                        "href": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-sehr-guter-zustand-tausch-wuerde-gehen-/3554287739-228-9130"
+                    }
+                ],
+                "ad_url": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-sehr-guter-zustand-tausch-wuerde-gehen-/3554287739-228-9130",
+                "views": null,
+                "created_at": "2026-10-27T18:46:01.000Z",
+                "status": "ACTIVE",
+                "deleted": false,
+                "seller": {
+                    "seller_id": "163165256",
+                    "name": null,
+                    "type": "PRIVATE",
+                    "account_type": "PRIVATE",
+                    "store_id": null,
+                    "store_title": null,
+                    "company_id": null,
+                    "since": null,
+                    "badges": []
+                },
+                "location": {
+                    "id": "9130",
+                    "name": "74572 Blaufelden",
+                    "city": "Blaufelden",
+                    "state": "Baden-W\u00fcrttemberg",
+                    "zip": "74572",
+                    "latitude": 49.29118,
+                    "longitude": 9.970695,
+                    "radius": 5.46
+                },
+                "category": {
+                    "id": "228",
+                    "name": "PCs",
+                    "parent_id": null
+                },
+                "attributes": [
+                    {
+                        "name": "pcs.condition",
+                        "label": "Zustand",
+                        "values": [
+                            {
+                                "value": "ok",
+                                "label": "Gut"
+                            }
+                        ]
+                    }
+                ],
+                "details": {
+                    "Zustand": "Gut"
+                }
+            },
+            {
+                "ad_id": "3554286988",
+                "title": "Gaming Pc|Rtx 3060|Ryzen 5 3500|16Gb Ram|SSD",
+                "description": "Ich verkaufe meinen Gaming-PC. Der PC l\u00e4uft stabil, ist leise und hat gute Temperaturen. Ideal zum Spielen und f\u00fcr den Alltag. Technische Daten * CPU: AMD Ryzen 5 3500 * Mainboard: MSI B450-A PRO * RAM: 16 GB DDR4 (2x 8 GB, 3000...",
+                "price": {
+                    "amount": 599,
+                    "currency_code": "EUR",
+                    "currency_label": "\u20ac",
+                    "price_type": "SPECIFIED_AMOUNT",
+                    "negotiable": false
+                },
+                "shipping_available": null,
+                "buy_now_available": false,
+                "images": [
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/91/91195b24-8836-4fd8-858e-2baf3f186568?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/d1/d1fabf88-6410-45d4-9fe4-700bb5d81990?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/c5/c5c0cca5-4bb3-4216-9aee-401e419039a0?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/5c/5c608eaa-531b-476f-b192-f5534951db94?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/5b/5b081fa8-e9ec-45ae-af51-854977f9765c?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/2b/2b0ea6ab-cb74-4fa2-b745-28d8433905d5?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/bc/bc976047-77c1-47ba-b47a-7f021fd7cd49?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/fe/fef8c721-e0d9-4898-99b5-ffa082295d88?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/1b/1becabc4-f06d-475d-a86f-9076814f138c?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/9a/9a6d7a24-f61e-4adb-880a-0a33221066c4?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/b1/b1b8a49f-b06f-4265-a412-ce8cd10b8031?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/78/78ee6769-53cb-4d2a-afdf-e4e963b2a342?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/96/96f8e08f-a55e-4403-a79b-36928287f4dd?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/0a/0a4299aa-d124-49ba-95e5-033bf55205a3?rule=$_57.AUTO"
+                ],
+                "links": [
+                    {
+                        "rel": "self-public-website",
+                        "href": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-rtx-3060-ryzen-5-3500-16gb-ram-ssd/3554286988-228-9348"
+                    }
+                ],
+                "ad_url": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-rtx-3060-ryzen-5-3500-16gb-ram-ssd/3554286988-228-9348",
+                "views": null,
+                "created_at": "2026-10-27T18:45:08.000Z",
+                "status": "ACTIVE",
+                "deleted": false,
+                "seller": {
+                    "seller_id": "153917437",
+                    "name": null,
+                    "type": "PRIVATE",
+                    "account_type": "PRIVATE",
+                    "store_id": null,
+                    "store_title": null,
+                    "company_id": null,
+                    "since": null,
+                    "badges": []
+                },
+                "location": {
+                    "id": "9348",
+                    "name": "72768 Reutlingen",
+                    "city": "Reutlingen",
+                    "state": "Baden-W\u00fcrttemberg",
+                    "zip": "72768",
+                    "latitude": 48.538353,
+                    "longitude": 9.187999,
+                    "radius": 2.76
+                },
+                "category": {
+                    "id": "228",
+                    "name": "PCs",
+                    "parent_id": null
+                },
+                "attributes": [
+                    {
+                        "name": "pcs.condition",
+                        "label": "Zustand",
+                        "values": [
+                            {
+                                "value": "like_new",
+                                "label": "Sehr Gut"
+                            }
+                        ]
+                    }
+                ],
+                "details": {
+                    "Zustand": "Sehr Gut"
+                }
+            },
+            {
+                "ad_id": "3554258621",
+                "title": "High-End Gaming PC f\u00fcr Profis",
+                "description": "Gaming-PC zu verkaufen Zum Verkauf steht mein Gaming-PC mit folgender Ausstattung: * Prozessor: Intel Core i5-12400 * Grafikkarte: AMD Radeon RX 5600 XT * Arbeitsspeicher: 16 GB DDR4 RAM * Speicher: 1 TB *...",
+                "price": {
+                    "amount": 670,
+                    "currency_code": "EUR",
+                    "currency_label": "\u20ac",
+                    "price_type": "SPECIFIED_AMOUNT",
+                    "negotiable": false
+                },
+                "shipping_available": true,
+                "buy_now_available": true,
+                "images": [
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/a6/a6b339dc-94cf-4a3c-a63c-f9d44bad225f?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/cd/cdea5844-d3f2-4228-b9ff-8e211f0ff64b?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/6e/6efcd677-f390-4772-a297-4b1176a087f5?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/56/5649b383-ef91-4826-811c-9361b97097be?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/68/68a652ec-1ef9-4e58-9309-a448789aebd2?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/e3/e3af2dd2-e3ba-4f64-b7bf-692198a2bd7d?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/1e/1ebaaf86-7ecd-4f63-bba6-9d9bbd68201d?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/43/43c534fe-0ca7-486d-b30b-c0be67bb2d35?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/df/dfe0c216-a541-4e8e-8ee6-66fb33bc57f3?rule=$_57.AUTO"
+                ],
+                "links": [
+                    {
+                        "rel": "self-public-website",
+                        "href": "https://www.kleinanzeigen.de/s-anzeige/high-end-gaming-pc-fuer-profis/3554258621-228-1954"
+                    }
+                ],
+                "ad_url": "https://www.kleinanzeigen.de/s-anzeige/high-end-gaming-pc-fuer-profis/3554258621-228-1954",
+                "views": null,
+                "created_at": "2026-10-27T18:44:33.000Z",
+                "status": "ACTIVE",
+                "deleted": false,
+                "seller": {
+                    "seller_id": "12174057",
+                    "name": null,
+                    "type": "PRIVATE",
+                    "account_type": "PRIVATE",
+                    "store_id": null,
+                    "store_title": null,
+                    "company_id": null,
+                    "since": null,
+                    "badges": []
+                },
+                "location": {
+                    "id": "1954",
+                    "name": "46242 Bottrop",
+                    "city": "Bottrop",
+                    "state": "Nordrhein-Westfalen",
+                    "zip": "46242",
+                    "latitude": 51.525505,
+                    "longitude": 6.900606,
+                    "radius": 1.65
+                },
+                "category": {
+                    "id": "228",
+                    "name": "PCs",
+                    "parent_id": null
+                },
+                "attributes": [
+                    {
+                        "name": "pcs.condition",
+                        "label": "Zustand",
+                        "values": [
+                            {
+                                "value": "like_new",
+                                "label": "Sehr Gut"
+                            }
+                        ]
+                    }
+                ],
+                "details": {
+                    "Zustand": "Sehr Gut"
+                }
+            },
+            {
+                "ad_id": "3554246675",
+                "title": "Gaming PC | Ryzen 5 3600 + AMD Radeon rx 5600 xt 6gb + 16gb DDR4",
+                "description": "Verkaufe diesen PC, er ist komplett f\u00fcr FullHD ausreichend. Verbaut ist: AMD Radeon rx 5600 xt 6gb Ryzen 5 3600 16gb DDR4-3200mhz G.Skill 1x 1TB SATA SSD + 500gb SATA SSD B450 Board (welches genau wei\u00df ich nicht...",
+                "price": {
+                    "amount": 525,
+                    "currency_code": "EUR",
+                    "currency_label": "\u20ac",
+                    "price_type": "PLEASE_CONTACT",
+                    "negotiable": false
+                },
+                "shipping_available": null,
+                "buy_now_available": false,
+                "images": [
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/cd/cd1375af-effd-4d0b-8455-c544cdb9a475?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/6c/6c71c4a8-0d50-4e97-b444-d09c8febf841?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/d6/d6310880-7c37-421a-9f5a-419f46e1e4f1?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ee/ee936436-6bf7-4988-b6d8-f62ea3e3e885?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/2f/2fd88eed-d562-4c2f-a53f-74d93bfb67e5?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/80/803f28c3-50e1-41d4-9ee4-72a942240cd7?rule=$_57.AUTO"
+                ],
+                "links": [
+                    {
+                        "rel": "self-public-website",
+                        "href": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-ryzen-5-3600-amd-radeon-rx-5600-xt-6gb-16gb-ddr4/3554246675-228-2416"
+                    }
+                ],
+                "ad_url": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-ryzen-5-3600-amd-radeon-rx-5600-xt-6gb-16gb-ddr4/3554246675-228-2416",
+                "views": null,
+                "created_at": "2026-10-27T18:35:29.000Z",
+                "status": "ACTIVE",
+                "deleted": false,
+                "seller": {
+                    "seller_id": "136782054",
+                    "name": null,
+                    "type": "PRIVATE",
+                    "account_type": "PRIVATE",
+                    "store_id": null,
+                    "store_title": null,
+                    "company_id": null,
+                    "since": null,
+                    "badges": []
+                },
+                "location": {
+                    "id": "2416",
+                    "name": "06132 Halle",
+                    "city": "Halle",
+                    "state": "Sachsen-Anhalt",
+                    "zip": "06132",
+                    "latitude": 51.423203,
+                    "longitude": 11.987046,
+                    "radius": 3.24
+                },
+                "category": {
+                    "id": "228",
+                    "name": "PCs",
+                    "parent_id": null
+                },
+                "attributes": [
+                    {
+                        "name": "pcs.condition",
+                        "label": "Zustand",
+                        "values": [
+                            {
+                                "value": "ok",
+                                "label": "Gut"
+                            }
+                        ]
+                    }
+                ],
+                "details": {
+                    "Zustand": "Gut"
+                }
+            },
+            {
+                "ad_id": "3554278027",
+                "title": "Gaming-PC SET || Ryzen7 || 16GB || mit Bildschirm & Zubeh\u00f6r",
+                "description": "Biete hier einen Gaming-PC f\u00fcr Einsteiger mit Bildschirm und neuen Zubeh\u00f6r an !!! Siehe Bilder !!! Das SET ist Optisch und Technisch in einem sehr guten Zustand !!! Wurde von mir gereinigt, gepr\u00fcft und komplett Neuinstalliert !!! <br...",
+                "price": {
+                    "amount": 499,
+                    "currency_code": "EUR",
+                    "currency_label": "\u20ac",
+                    "price_type": "PLEASE_CONTACT",
+                    "negotiable": false
+                },
+                "shipping_available": null,
+                "buy_now_available": false,
+                "images": [
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/db/db2dabe1-7113-4152-844a-bc04990a1c82?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/13/138564e5-7ad3-49ec-a9ec-f89eca11f73d?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/d4/d47bb4dc-93b6-42ba-b806-43b30d68f696?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/4c/4c5cd067-c964-45eb-8017-1f5d01daaa6e?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/8f/8f0675ae-8152-4889-9cb6-509c43205ff6?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/70/70df9515-f409-4bfa-930c-4e2bcf6f5943?rule=$_57.AUTO"
+                ],
+                "links": [
+                    {
+                        "rel": "self-public-website",
+                        "href": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-set-ryzen7-16gb-mit-bildschirm-zubehoer/3554278027-228-6629"
+                    }
+                ],
+                "ad_url": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-set-ryzen7-16gb-mit-bildschirm-zubehoer/3554278027-228-6629",
+                "views": null,
+                "created_at": "2026-10-27T18:34:35.000Z",
+                "status": "ACTIVE",
+                "deleted": false,
+                "seller": {
+                    "seller_id": "62787039",
+                    "name": "Hartl PCs & Zubeh\u00f6r",
+                    "type": "COMMERCIAL",
+                    "account_type": "PRO",
+                    "store_id": "174088",
+                    "store_title": "Hartl PCs & Zubeh\u00f6r",
+                    "company_id": null,
+                    "since": null,
+                    "badges": []
+                },
+                "location": {
+                    "id": "6629",
+                    "name": "84524 Neu\u00f6tting",
+                    "city": "Neu\u00f6tting",
+                    "state": "Bayern",
+                    "zip": "84524",
+                    "latitude": 48.24251,
+                    "longitude": 12.679596,
+                    "radius": 1.39
+                },
+                "category": {
+                    "id": "228",
+                    "name": "PCs",
+                    "parent_id": null
+                },
+                "attributes": [
+                    {
+                        "name": "pcs.condition",
+                        "label": "Zustand",
+                        "values": [
+                            {
+                                "value": "like_new",
+                                "label": "Sehr Gut"
+                            }
+                        ]
+                    }
+                ],
+                "details": {
+                    "Zustand": "Sehr Gut"
+                }
+            },
+            {
+                "ad_id": "3554276600",
+                "title": "Gaming-PC | i7-8700K | GTX 1080 Ti 11 GB | 32 GB RAM | NVMe SSD",
+                "description": "Verkaufe meinen voll funktionsf\u00e4higen Gaming-PC. Der PC l\u00e4uft einwandfrei. Die SSD wurde vollst\u00e4ndig gel\u00f6scht/zur\u00fcckgesetzt, sodass der neue Besitzer das System nach Wunsch neu einrichten kann. ## Technische Daten<br...",
+                "price": {
+                    "amount": 540,
+                    "currency_code": "EUR",
+                    "currency_label": "\u20ac",
+                    "price_type": "PLEASE_CONTACT",
+                    "negotiable": false
+                },
+                "shipping_available": null,
+                "buy_now_available": false,
+                "images": [
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/02/02214b1a-a57c-4a1d-807b-21cdf1de19fc?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/9d/9da5ffa4-32d7-4e0a-a973-d3b6f06a7621?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/56/56c3f59a-9801-4c34-98e5-cf13ebc6333b?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/3e/3e4017cd-f73c-435b-a7d5-ca246c0a5028?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/a4/a47dd98a-75c4-457b-bc46-fe7d4b5c0422?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/38/3864aeba-9bec-4f27-a05c-6574988856d3?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/f6/f6399d4e-9bea-4a58-bf06-21158769a995?rule=$_57.AUTO"
+                ],
+                "links": [
+                    {
+                        "rel": "self-public-website",
+                        "href": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-i7-8700k-gtx-1080-ti-11-gb-32-gb-ram-nvme-ssd/3554276600-228-3381"
+                    }
+                ],
+                "ad_url": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-i7-8700k-gtx-1080-ti-11-gb-32-gb-ram-nvme-ssd/3554276600-228-3381",
+                "views": null,
+                "created_at": "2026-10-27T18:32:52.000Z",
+                "status": "ACTIVE",
+                "deleted": false,
+                "seller": {
+                    "seller_id": "5875836",
+                    "name": null,
+                    "type": "PRIVATE",
+                    "account_type": "PRIVATE",
+                    "store_id": null,
+                    "store_title": null,
+                    "company_id": null,
+                    "since": null,
+                    "badges": []
+                },
+                "location": {
+                    "id": "3381",
+                    "name": "12679 Marzahn",
+                    "city": "Marzahn",
+                    "state": "Berlin",
+                    "zip": "12679",
+                    "latitude": 52.54801,
+                    "longitude": 13.561744,
+                    "radius": 0.89
+                },
+                "category": {
+                    "id": "228",
+                    "name": "PCs",
+                    "parent_id": null
+                },
+                "attributes": [],
+                "details": {}
+            },
+            {
+                "ad_id": "3536303767",
+                "title": "Gaming PC RTX 3070 i7-8700K 16GB RAM Samsung 990 Pro 2TB 27 Zoll",
+                "description": "Ich verkaufe meinen Gaming-PC inklusive 27 Zoll Monitor von AOC. Der Rechner befindet sich in einem guten, gepflegten Zustand und funktioniert technisch einwandfrei. Der PC wurde urspr\u00fcnglich aus hochwertigen Markenkomponenten...",
+                "price": {
+                    "amount": 699,
+                    "currency_code": "EUR",
+                    "currency_label": "\u20ac",
+                    "price_type": "PLEASE_CONTACT",
+                    "negotiable": false
+                },
+                "shipping_available": null,
+                "buy_now_available": false,
+                "images": [
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/af/af237378-b7bf-4ddd-b202-3ca2df1da67b?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/86/861ad095-d60b-4594-94ff-0cc90bed1cec?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/04/04c12bdb-f6bc-4958-924e-2611d56836b6?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/34/3443b9f4-5145-4094-a911-722a3476cf56?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/f0/f0b92f0e-1a4e-4cf6-9855-83cba2c91ef4?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/9e/9e890fc6-50dc-4b6c-8c57-9fa235454dc5?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/5d/5db9e3a8-1461-4c20-86b2-882203cabcad?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/c0/c02e7c35-0707-4ff2-a0bf-3eeb7fa9ad6f?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/94/94d6681c-288b-476c-a242-7576cc7afb07?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/52/52c05466-901b-41a3-9495-36add97caeb4?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/44/4432631d-bf74-430f-9efd-25aa2831c5f1?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/3e/3e1ab6cc-baef-4444-bafc-da2f10c094f9?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ca/ca0f1d5b-f73c-43fa-a64a-b15ccc79d727?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/40/40815d22-a0b7-41a9-9c70-d9d36b5aa91d?rule=$_57.AUTO"
+                ],
+                "links": [
+                    {
+                        "rel": "self-public-website",
+                        "href": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-rtx-3070-i7-8700k-16gb-ram-samsung-990-pro-2tb-27-zoll/3536303767-228-6090"
+                    }
+                ],
+                "ad_url": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-rtx-3070-i7-8700k-16gb-ram-samsung-990-pro-2tb-27-zoll/3536303767-228-6090",
+                "views": null,
+                "created_at": "2026-10-27T18:32:31.000Z",
+                "status": "ACTIVE",
+                "deleted": false,
+                "seller": {
+                    "seller_id": "28198176",
+                    "name": null,
+                    "type": "PRIVATE",
+                    "account_type": "PRIVATE",
+                    "store_id": null,
+                    "store_title": null,
+                    "company_id": null,
+                    "since": null,
+                    "badges": []
+                },
+                "location": {
+                    "id": "6090",
+                    "name": "90610 Winkelhaid",
+                    "city": "Winkelhaid",
+                    "state": "Bayern",
+                    "zip": "90610",
+                    "latitude": 49.388203,
+                    "longitude": 11.302444,
+                    "radius": 3.91
+                },
+                "category": {
+                    "id": "228",
+                    "name": "PCs",
+                    "parent_id": null
+                },
+                "attributes": [
+                    {
+                        "name": "pcs.condition",
+                        "label": "Zustand",
+                        "values": [
+                            {
+                                "value": "like_new",
+                                "label": "Sehr Gut"
+                            }
+                        ]
+                    }
+                ],
+                "details": {
+                    "Zustand": "Sehr Gut"
+                }
+            },
+            {
+                "ad_id": "3554274888",
+                "title": "Gaming PC | Ryzen 5 3600 | RTX 2070 Super 8GB | 16GB RAM",
+                "description": "Verkaufe einen leistungsstarken Gaming-PC in sehr gepflegtem Zustand. Der PC l\u00e4uft einwandfrei, ist sauber und sofort einsatzbereit. Technische Daten: * AMD Ryzen 5 3600 \u2013 4,3 GHz * MSI GeForce RTX 2070 Super \u2013 8 GB *...",
+                "price": {
+                    "amount": 649,
+                    "currency_code": "EUR",
+                    "currency_label": "\u20ac",
+                    "price_type": "PLEASE_CONTACT",
+                    "negotiable": false
+                },
+                "shipping_available": true,
+                "buy_now_available": true,
+                "images": [
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/db/dbbe7e71-95de-4670-882a-dddfd1d76f57?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/37/37d0f880-e54f-46ac-8986-7abc965a3e84?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/8d/8dc265e9-08b9-4b73-bf8e-166a4c3433cf?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/8c/8c9b581b-5cd1-441d-9e32-7186122fa51c?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/58/58abb937-93e2-43b7-91f4-98f5c73a6e5e?rule=$_57.AUTO"
+                ],
+                "links": [
+                    {
+                        "rel": "self-public-website",
+                        "href": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-ryzen-5-3600-rtx-2070-super-8gb-16gb-ram/3554274888-228-9104"
+                    }
+                ],
+                "ad_url": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-ryzen-5-3600-rtx-2070-super-8gb-16gb-ram/3554274888-228-9104",
+                "views": null,
+                "created_at": "2026-10-27T18:30:56.000Z",
+                "status": "ACTIVE",
+                "deleted": false,
+                "seller": {
+                    "seller_id": "126004065",
+                    "name": null,
+                    "type": "PRIVATE",
+                    "account_type": "PRIVATE",
+                    "store_id": null,
+                    "store_title": null,
+                    "company_id": null,
+                    "since": null,
+                    "badges": []
+                },
+                "location": {
+                    "id": "9104",
+                    "name": "78050 Villingen-Schwenningen",
+                    "city": "Villingen-Schwenningen",
+                    "state": "Baden-W\u00fcrttemberg",
+                    "zip": "78050",
+                    "latitude": 48.05349,
+                    "longitude": 8.445652,
+                    "radius": 1.62
+                },
+                "category": {
+                    "id": "228",
+                    "name": "PCs",
+                    "parent_id": null
+                },
+                "attributes": [
+                    {
+                        "name": "pcs.condition",
+                        "label": "Zustand",
+                        "values": [
+                            {
+                                "value": "like_new",
+                                "label": "Sehr Gut"
+                            }
+                        ]
+                    }
+                ],
+                "details": {
+                    "Zustand": "Sehr Gut"
+                }
+            },
+            {
+                "ad_id": "3554237168",
+                "title": "Gaming PC \u2013 Ryzen 5 3600 | RX 5700 8 GB DDR6 | 16 GB | 1 TB SSD",
+                "description": "Zum Verkauf steht ein leistungsstarker Gaming-PC mit AMD Ryzen 5 Prozessor und MSI Radeon RX 5700 Grafikkarte. Der Rechner eignet sich hervorragend f\u00fcr Gaming in Full HD, Multimedia, Office und allt\u00e4gliche Anwendungen. Dank der...",
+                "price": {
+                    "amount": 450,
+                    "currency_code": "EUR",
+                    "currency_label": "\u20ac",
+                    "price_type": "SPECIFIED_AMOUNT",
+                    "negotiable": false
+                },
+                "shipping_available": null,
+                "buy_now_available": false,
+                "images": [
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/89/890abf69-b628-49e4-99a7-9bf321389526?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/bd/bdd0e05d-463d-49bc-828c-641e15de11d6?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/d9/d9586b13-d2d4-413d-85b8-035b31a696dd?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/28/283814d1-f171-4e34-97eb-8f6eb6be9c74?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/63/63063138-0c1b-4657-8920-8ac2f6668f57?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/0a/0a22efcf-58e3-4fb6-93cd-effd24e0feb0?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/f5/f5ff0618-2840-4239-bf23-e8aed08ae015?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/62/622095f2-b1d4-44c0-9500-e8a3da4a5c98?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/f0/f0e3ac92-7088-4be2-b270-69c6466a1b6d?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/58/58cc8074-8ae8-43e6-9378-daaf0cbb0179?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/a1/a1be0c89-a355-4ce4-a806-e69434c419ac?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/f5/f5f39239-c47f-4b0d-a871-6a83fbbf24d2?rule=$_57.AUTO"
+                ],
+                "links": [
+                    {
+                        "rel": "self-public-website",
+                        "href": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-ryzen-5-3600-rx-5700-8-gb-ddr6-16-gb-1-tb-ssd/3554237168-228-4362"
+                    }
+                ],
+                "ad_url": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-ryzen-5-3600-rx-5700-8-gb-ddr6-16-gb-1-tb-ssd/3554237168-228-4362",
+                "views": null,
+                "created_at": "2026-10-27T18:27:22.000Z",
+                "status": "ACTIVE",
+                "deleted": false,
+                "seller": {
+                    "seller_id": "5265693",
+                    "name": null,
+                    "type": "PRIVATE",
+                    "account_type": "PRIVATE",
+                    "store_id": null,
+                    "store_title": null,
+                    "company_id": null,
+                    "since": null,
+                    "badges": []
+                },
+                "location": {
+                    "id": "4362",
+                    "name": "65594 Runkel",
+                    "city": "Runkel",
+                    "state": "Hessen",
+                    "zip": "65594",
+                    "latitude": 50.411144,
+                    "longitude": 8.163528,
+                    "radius": 3.03
+                },
+                "category": {
+                    "id": "228",
+                    "name": "PCs",
+                    "parent_id": null
+                },
+                "attributes": [
+                    {
+                        "name": "pcs.condition",
+                        "label": "Zustand",
+                        "values": [
+                            {
+                                "value": "ok",
+                                "label": "Gut"
+                            }
+                        ]
+                    }
+                ],
+                "details": {
+                    "Zustand": "Gut"
+                }
+            },
+            {
+                "ad_id": "3527360052",
+                "title": "Gaming PC Intel i5 13400F GTX 1080 32GB RAM Win11 BeQuiet RGB 1TB",
+                "description": "Ich verkaufe meinen Gaming PC, der durch das seitliche Sichtfenster einen direkten Blick auf die verbaute Hardware erm\u00f6glicht. Das Geh\u00e4use von BeQuiet ist in einem schlichten, modernen Design gehalten mit RGB Beleuchtung. - Geh\u00e4use...",
+                "price": {
+                    "amount": 579,
+                    "currency_code": "EUR",
+                    "currency_label": "\u20ac",
+                    "price_type": "PLEASE_CONTACT",
+                    "negotiable": false
+                },
+                "shipping_available": null,
+                "buy_now_available": false,
+                "images": [
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/c7/c73e1e45-582c-4eb0-b0c9-a09877d36493?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/b4/b4887950-391f-40e1-9c6d-0e6f4d4322ce?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/65/6578cbc4-4adc-4c6b-aa73-94cce84c5842?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/33/33c0314a-e80a-4425-9923-1a648cf76907?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/fe/fe9eea0f-30d2-414f-9276-5ff394f48336?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/d2/d20fb01d-d3e2-4bf8-a092-87c38842ad6b?rule=$_57.AUTO"
+                ],
+                "links": [
+                    {
+                        "rel": "self-public-website",
+                        "href": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-intel-i5-13400f-gtx-1080-32gb-ram-win11-bequiet-rgb-1tb/3527360052-228-8377"
+                    }
+                ],
+                "ad_url": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-intel-i5-13400f-gtx-1080-32gb-ram-win11-bequiet-rgb-1tb/3527360052-228-8377",
+                "views": null,
+                "created_at": "2026-10-27T18:26:12.000Z",
+                "status": "ACTIVE",
+                "deleted": false,
+                "seller": {
+                    "seller_id": "71947050",
+                    "name": null,
+                    "type": "PRIVATE",
+                    "account_type": "PRIVATE",
+                    "store_id": null,
+                    "store_title": null,
+                    "company_id": null,
+                    "since": null,
+                    "badges": []
+                },
+                "location": {
+                    "id": "8377",
+                    "name": "74638 Waldenburg",
+                    "city": "Waldenburg",
+                    "state": "Baden-W\u00fcrttemberg",
+                    "zip": "74638",
+                    "latitude": 49.176216,
+                    "longitude": 9.640682,
+                    "radius": 4.91
+                },
+                "category": {
+                    "id": "228",
+                    "name": "PCs",
+                    "parent_id": null
+                },
+                "attributes": [
+                    {
+                        "name": "pcs.condition",
+                        "label": "Zustand",
+                        "values": [
+                            {
+                                "value": "like_new",
+                                "label": "Sehr Gut"
+                            }
+                        ]
+                    }
+                ],
+                "details": {
+                    "Zustand": "Sehr Gut"
+                }
+            },
+            {
+                "ad_id": "3554260173",
+                "title": "Gaming PC RTX 3060 Ti | Ryzen 7 | 16GB RAM | NVME | W11 Pro | NEU",
+                "description": "Zum Verkauf steht ein frisch aufgebauter, leistungsstarker Gaming-PC, der ideal f\u00fcr aktuelle Spiele in Full HD und WQHD geeignet ist. Der PC wurde mit gro\u00dfer Sorgfalt aus neuen und professionell gepr\u00fcften Komponenten zusammengebaut,...",
+                "price": {
+                    "amount": 670,
+                    "currency_code": "EUR",
+                    "currency_label": "\u20ac",
+                    "price_type": "PLEASE_CONTACT",
+                    "negotiable": false
+                },
+                "shipping_available": true,
+                "buy_now_available": true,
+                "images": [
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/5f/5f91eba3-b4f9-4e73-97c6-932f5a3789d8?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/63/63024937-a965-4c35-a8ca-08f172682422?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/5d/5df45339-eec1-48f9-8cfd-820035fb897a?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/65/6554fa78-c54a-433e-993e-908e2cb670df?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/d7/d7afb89c-af4f-49f6-a69f-89ff680c18fa?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/3c/3c142292-558f-47b6-b1d1-815ee5c5be68?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/5d/5db8ef96-e7bf-4753-aec3-fc58cafebfc9?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/97/97abb92c-7e27-492b-b3bc-647c78bfcfe4?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/31/31fdc348-02f3-40af-ad3b-2f995e68a1e1?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/7e/7ebd0abb-349f-460b-a95a-6ff8cafc24ca?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ad/ad88f5f9-cac8-4ca3-b0cf-c12cf16712af?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/55/55380b15-5ac5-448a-911e-3f09ab5c9c07?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/57/57c15f5f-e4b0-46cc-83c6-f41d11b6f638?rule=$_57.AUTO"
+                ],
+                "links": [
+                    {
+                        "rel": "self-public-website",
+                        "href": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-rtx-3060-ti-ryzen-7-16gb-ram-nvme-w11-pro-neu/3554260173-228-17038"
+                    }
+                ],
+                "ad_url": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-rtx-3060-ti-ryzen-7-16gb-ram-nvme-w11-pro-neu/3554260173-228-17038",
+                "views": null,
+                "created_at": "2026-10-27T18:14:26.000Z",
+                "status": "ACTIVE",
+                "deleted": false,
+                "seller": {
+                    "seller_id": "154877850",
+                    "name": null,
+                    "type": "PRIVATE",
+                    "account_type": "PRIVATE",
+                    "store_id": null,
+                    "store_title": null,
+                    "company_id": null,
+                    "since": null,
+                    "badges": []
+                },
+                "location": {
+                    "id": "17038",
+                    "name": "06869 Coswig (Anhalt)",
+                    "city": "Coswig (Anhalt)",
+                    "state": "Sachsen-Anhalt",
+                    "zip": "06869",
+                    "latitude": 51.88836,
+                    "longitude": 12.453074,
+                    "radius": 0.43
+                },
+                "category": {
+                    "id": "228",
+                    "name": "PCs",
+                    "parent_id": null
+                },
+                "attributes": [
+                    {
+                        "name": "pcs.condition",
+                        "label": "Zustand",
+                        "values": [
+                            {
+                                "value": "like_new",
+                                "label": "Sehr Gut"
+                            }
+                        ]
+                    }
+                ],
+                "details": {
+                    "Zustand": "Sehr Gut"
+                }
+            },
+            {
+                "ad_id": "3554255568",
+                "title": "Gaming PC/Ryzen5600X/RTX3070FE/24GBRAM DDR4",
+                "description": "Hiermit verkaufe ich meinen Gaming aufgrund von Zeitmangel. Er l\u00e4uft super und Zocken ist kein Problem. Verkauft wird mit 500GB Nvme SSD Fragen werden gern beantwortet. Abholung wird bevorzugt.",
+                "price": {
+                    "amount": 700,
+                    "currency_code": "EUR",
+                    "currency_label": "\u20ac",
+                    "price_type": "PLEASE_CONTACT",
+                    "negotiable": false
+                },
+                "shipping_available": null,
+                "buy_now_available": false,
+                "images": [
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/f7/f73e4e96-4603-4df0-af1f-103e9afcd88c?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/38/38ca4e60-f1b2-4837-b68f-7586e769f0d7?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/f4/f498c9de-7d38-4411-a38e-90410d18b79f?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/5d/5d3dcac7-84c3-4e50-b5f4-8155a2f975ba?rule=$_57.AUTO"
+                ],
+                "links": [
+                    {
+                        "rel": "self-public-website",
+                        "href": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-ryzen5600x-rtx3070fe-24gbram-ddr4/3554255568-228-4016"
+                    }
+                ],
+                "ad_url": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-ryzen5600x-rtx3070fe-24gbram-ddr4/3554255568-228-4016",
+                "views": null,
+                "created_at": "2026-10-27T18:09:08.000Z",
+                "status": "ACTIVE",
+                "deleted": false,
+                "seller": {
+                    "seller_id": "166926613",
+                    "name": null,
+                    "type": "COMMERCIAL",
+                    "account_type": "COMMERCIAL",
+                    "store_id": null,
+                    "store_title": null,
+                    "company_id": null,
+                    "since": null,
+                    "badges": []
+                },
+                "location": {
+                    "id": "4016",
+                    "name": "09557 Fl\u00f6ha ",
+                    "city": "Fl\u00f6ha ",
+                    "state": "Sachsen",
+                    "zip": "09557",
+                    "latitude": 50.854652,
+                    "longitude": 13.067807,
+                    "radius": 3.56
+                },
+                "category": {
+                    "id": "228",
+                    "name": "PCs",
+                    "parent_id": null
+                },
+                "attributes": [
+                    {
+                        "name": "pcs.condition",
+                        "label": "Zustand",
+                        "values": [
+                            {
+                                "value": "ok",
+                                "label": "Gut"
+                            }
+                        ]
+                    }
+                ],
+                "details": {
+                    "Zustand": "Gut"
+                }
+            },
+            {
+                "ad_id": "3554223961",
+                "title": "Gaming PC | AMD Ryzen 5 5500",
+                "description": "Zum Verkauf steht ein absolut zuverl\u00e4ssiger und leistungsstarker Gaming-PC. Das System l\u00e4uft einwandfrei und eignet sich perfekt f\u00fcr fl\u00fcssiges Full-HD-Gaming (wie Fortnite, CS2, GTA V etc.), Homeoffice und allt\u00e4gliche Multimedia-Anwendungen.",
+                "price": {
+                    "amount": 380,
+                    "currency_code": "EUR",
+                    "currency_label": "\u20ac",
+                    "price_type": "SPECIFIED_AMOUNT",
+                    "negotiable": false
+                },
+                "shipping_available": null,
+                "buy_now_available": false,
+                "images": [
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/93/937e7b22-32c2-453d-9177-6e2c98ffed57?rule=$_57.AUTO"
+                ],
+                "links": [
+                    {
+                        "rel": "self-public-website",
+                        "href": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-amd-ryzen-5-5500/3554223961-228-2596"
+                    }
+                ],
+                "ad_url": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-amd-ryzen-5-5500/3554223961-228-2596",
+                "views": null,
+                "created_at": "2026-10-27T18:08:12.000Z",
+                "status": "ACTIVE",
+                "deleted": false,
+                "seller": {
+                    "seller_id": "167780257",
+                    "name": null,
+                    "type": "PRIVATE",
+                    "account_type": "PRIVATE",
+                    "store_id": null,
+                    "store_title": null,
+                    "company_id": null,
+                    "since": null,
+                    "badges": []
+                },
+                "location": {
+                    "id": "2596",
+                    "name": "49681 Garrel",
+                    "city": "Garrel",
+                    "state": "Niedersachsen",
+                    "zip": "49681",
+                    "latitude": 52.960636,
+                    "longitude": 8.036499,
+                    "radius": 7.23
+                },
+                "category": {
+                    "id": "228",
+                    "name": "PCs",
+                    "parent_id": null
+                },
+                "attributes": [
+                    {
+                        "name": "pcs.condition",
+                        "label": "Zustand",
+                        "values": [
+                            {
+                                "value": "like_new",
+                                "label": "Sehr Gut"
+                            }
+                        ]
+                    }
+                ],
+                "details": {
+                    "Zustand": "Sehr Gut"
+                }
+            },
+            {
+                "ad_id": "3554253626",
+                "title": "Gaming PC Ryzen 5 3600X, RTX 3060 12GB, Corsair Build",
+                "description": "Ich verkaufe meinen sehr gepflegten Gaming-PC, der komplett auf Corsair-Komponenten setzt und optisch durch eine stimmungsvolle Beleuchtung \u00fcberzeugt. - Prozessor: AMD Ryzen 5 3600X - Grafikkarte: NVIDIA GeForce RTX 3060 12GB -...",
+                "price": {
+                    "amount": 700,
+                    "currency_code": "EUR",
+                    "currency_label": "\u20ac",
+                    "price_type": "SPECIFIED_AMOUNT",
+                    "negotiable": false
+                },
+                "shipping_available": null,
+                "buy_now_available": false,
+                "images": [
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/7d/7d5b4aa4-7625-4c04-983f-3ec49f366972?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/93/93de0743-ebca-4c3c-a303-fd3ca8636d90?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/56/56cb9b9f-aa45-4c14-b416-4adfe0d0bd3c?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/bb/bb5aa9ba-1907-4bc2-93a2-03a90f347387?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/5b/5b04014e-c1ad-4715-945a-ee48a80d50f7?rule=$_57.AUTO"
+                ],
+                "links": [
+                    {
+                        "rel": "self-public-website",
+                        "href": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-ryzen-5-3600x-rtx-3060-12gb-corsair-build/3554253626-228-5659"
+                    }
+                ],
+                "ad_url": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-ryzen-5-3600x-rtx-3060-12gb-corsair-build/3554253626-228-5659",
+                "views": null,
+                "created_at": "2026-10-27T18:06:57.000Z",
+                "status": "ACTIVE",
+                "deleted": false,
+                "seller": {
+                    "seller_id": "155662629",
+                    "name": null,
+                    "type": "PRIVATE",
+                    "account_type": "PRIVATE",
+                    "store_id": null,
+                    "store_title": null,
+                    "company_id": null,
+                    "since": null,
+                    "badges": []
+                },
+                "location": {
+                    "id": "5659",
+                    "name": "90513 Zirndorf",
+                    "city": "Zirndorf",
+                    "state": "Bayern",
+                    "zip": "90513",
+                    "latitude": 49.43487,
+                    "longitude": 10.927608,
+                    "radius": 3.37
+                },
+                "category": {
+                    "id": "228",
+                    "name": "PCs",
+                    "parent_id": null
+                },
+                "attributes": [
+                    {
+                        "name": "pcs.condition",
+                        "label": "Zustand",
+                        "values": [
+                            {
+                                "value": "like_new",
+                                "label": "Sehr Gut"
+                            }
+                        ]
+                    }
+                ],
+                "details": {
+                    "Zustand": "Sehr Gut"
+                }
+            },
+            {
+                "ad_id": "3554253108",
+                "title": "Gaming PC i9-9900K ASUS ROG RTX 2070 32 GB RAM Wassergek\u00fchlt",
+                "description": "Zum Verkauf steht mein Gaming-PC in einem Coolermaster-Geh\u00e4use. Der PC eignet sich ideal zum Gaming und f\u00fcr allt\u00e4gliche Anwendungen. Der Rechner ist mit hochwertigen Komponenten ausgestattet und bietet dank des Intel Core i9-9900K und der...",
+                "price": {
+                    "amount": 630,
+                    "currency_code": "EUR",
+                    "currency_label": "\u20ac",
+                    "price_type": "PLEASE_CONTACT",
+                    "negotiable": false
+                },
+                "shipping_available": null,
+                "buy_now_available": false,
+                "images": [
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/0e/0e445f4c-1f52-4d99-bf33-b5eea40d5eb9?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/8e/8ee05d9d-0de9-4e98-b660-cdd06d10f0d3?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/d3/d397be5f-6c0a-433b-9546-3320aa087925?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/f0/f067a262-7419-4ce7-9d8f-86e36b51dbb4?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/a4/a4d33b9e-46af-49b5-b772-284c2eb3adf6?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ed/eddb2e2d-18f6-4025-887d-619afc896fea?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/7f/7f998821-e5e2-47fc-8cdb-ffbbb2103b20?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/3c/3c439fa1-b4d1-4d38-aaf4-bf676190686b?rule=$_57.AUTO"
+                ],
+                "links": [
+                    {
+                        "rel": "self-public-website",
+                        "href": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-i9-9900k-asus-rog-rtx-2070-32-gb-ram-wassergekuehlt/3554253108-228-9093"
+                    }
+                ],
+                "ad_url": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-i9-9900k-asus-rog-rtx-2070-32-gb-ram-wassergekuehlt/3554253108-228-9093",
+                "views": null,
+                "created_at": "2026-10-27T18:06:21.000Z",
+                "status": "ACTIVE",
+                "deleted": false,
+                "seller": {
+                    "seller_id": "5003656",
+                    "name": null,
+                    "type": "PRIVATE",
+                    "account_type": "PRIVATE",
+                    "store_id": null,
+                    "store_title": null,
+                    "company_id": null,
+                    "since": null,
+                    "badges": []
+                },
+                "location": {
+                    "id": "9093",
+                    "name": "72070 T\u00fcbingen",
+                    "city": "T\u00fcbingen",
+                    "state": "Baden-W\u00fcrttemberg",
+                    "zip": "72070",
+                    "latitude": 48.52266,
+                    "longitude": 9.00471,
+                    "radius": 3.97
+                },
+                "category": {
+                    "id": "228",
+                    "name": "PCs",
+                    "parent_id": null
+                },
+                "attributes": [
+                    {
+                        "name": "pcs.condition",
+                        "label": "Zustand",
+                        "values": [
+                            {
+                                "value": "like_new",
+                                "label": "Sehr Gut"
+                            }
+                        ]
+                    }
+                ],
+                "details": {
+                    "Zustand": "Sehr Gut"
+                }
+            },
+            {
+                "ad_id": "3554250752",
+                "title": "High End Gaming PC",
+                "description": "Verkaufe meinen selbstgebauten Gaming-PC in wei\u00dfem Lian Li O11 Dynamic EVO Geh\u00e4use. L\u00e4uft einwandfrei und ist bereit zur Nutzung. Komponenten: \u2022 CPU: Intel Core i5-12400F (6 Kerne / 12 Threads, bis 4,4 GHz) \u2022 Grafikkarte:...",
+                "price": {
+                    "amount": 750,
+                    "currency_code": "EUR",
+                    "currency_label": "\u20ac",
+                    "price_type": "SPECIFIED_AMOUNT",
+                    "negotiable": false
+                },
+                "shipping_available": null,
+                "buy_now_available": false,
+                "images": [
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/18/18257207-2071-4128-a639-5c936ea5b772?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/77/775c21f4-bb3a-4144-a6ad-c2b37415b92d?rule=$_57.AUTO"
+                ],
+                "links": [
+                    {
+                        "rel": "self-public-website",
+                        "href": "https://www.kleinanzeigen.de/s-anzeige/high-end-gaming-pc/3554250752-228-4201"
+                    }
+                ],
+                "ad_url": "https://www.kleinanzeigen.de/s-anzeige/high-end-gaming-pc/3554250752-228-4201",
+                "views": null,
+                "created_at": "2026-10-27T18:03:43.000Z",
+                "status": "ACTIVE",
+                "deleted": false,
+                "seller": {
+                    "seller_id": "57715465",
+                    "name": null,
+                    "type": "PRIVATE",
+                    "account_type": "PRIVATE",
+                    "store_id": null,
+                    "store_title": null,
+                    "company_id": null,
+                    "since": null,
+                    "badges": []
+                },
+                "location": {
+                    "id": "4201",
+                    "name": "09633 Halsbr\u00fccke",
+                    "city": "Halsbr\u00fccke",
+                    "state": "Sachsen",
+                    "zip": "09633",
+                    "latitude": 50.969635,
+                    "longitude": 13.358398,
+                    "radius": 4.15
+                },
+                "category": {
+                    "id": "228",
+                    "name": "PCs",
+                    "parent_id": null
+                },
+                "attributes": [],
+                "details": {}
+            },
+            {
+                "ad_id": "3554250168",
+                "title": "Gaming PC schwarz",
+                "description": "Ich verkaufe meinen alten Gaming PC. Specs Prozessor: AMD Ryzen 5 3600X Grafikkarte: AMD Radeon RX 5700 XT Arbeistsspeicher: 2x 8GB DDR4 RAM Motherboard: ASRock B450 Pro 4 Geh\u00e4use: NZXT H510...",
+                "price": {
+                    "amount": 500,
+                    "currency_code": "EUR",
+                    "currency_label": "\u20ac",
+                    "price_type": "PLEASE_CONTACT",
+                    "negotiable": false
+                },
+                "shipping_available": null,
+                "buy_now_available": false,
+                "images": [
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ee/eefc7ab9-8b93-46e5-bc01-1b540717fb58?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/0b/0b5790e0-9534-419f-a01e-dcaf024d9734?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/18/18e0753f-5105-42db-95e8-2b1eb8687674?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/a2/a24f5739-8b34-4969-80ca-01a764955d88?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/b7/b7de41c0-6b31-43c8-927f-f8ebc8df31f9?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/c1/c16eaf4a-bf0c-4e0a-a154-327ff4ccfd59?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/19/19ee3ad1-6f6f-4654-9b73-212c57c00e93?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/d1/d1741fbe-8c62-40de-a5d4-c67754ac5f7a?rule=$_57.AUTO"
+                ],
+                "links": [
+                    {
+                        "rel": "self-public-website",
+                        "href": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-schwarz/3554250168-228-2661"
+                    }
+                ],
+                "ad_url": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-schwarz/3554250168-228-2661",
+                "views": null,
+                "created_at": "2026-10-27T18:03:02.000Z",
+                "status": "ACTIVE",
+                "deleted": false,
+                "seller": {
+                    "seller_id": "140446278",
+                    "name": null,
+                    "type": "PRIVATE",
+                    "account_type": "PRIVATE",
+                    "store_id": null,
+                    "store_title": null,
+                    "company_id": null,
+                    "since": null,
+                    "badges": []
+                },
+                "location": {
+                    "id": "2661",
+                    "name": "27232 Sulingen",
+                    "city": "Sulingen",
+                    "state": "Niedersachsen",
+                    "zip": "27232",
+                    "latitude": 52.66579,
+                    "longitude": 8.796595,
+                    "radius": 6.45
+                },
+                "category": {
+                    "id": "228",
+                    "name": "PCs",
+                    "parent_id": null
+                },
+                "attributes": [
+                    {
+                        "name": "pcs.condition",
+                        "label": "Zustand",
+                        "values": [
+                            {
+                                "value": "like_new",
+                                "label": "Sehr Gut"
+                            }
+                        ]
+                    }
+                ],
+                "details": {
+                    "Zustand": "Sehr Gut"
+                }
+            },
+            {
+                "ad_id": "3554247344",
+                "title": "Einsteiger Gaming PC - Intel 10105 - B560M - GTX 1650 - 16GB -",
+                "description": "Ich verkaufe hier einen Einsteiger Gaming PC der f\u00fcr den Einstieg ins Gaming absolut ausreichend ist. Verbaut ist ein Intel 10105 Prozessor mit 4 Kernen und 8 Threads auf einem Gigabyte b560m ds3h v2 kombiniert mit einer Nvidia GTX 1650...",
+                "price": {
+                    "amount": 300,
+                    "currency_code": "EUR",
+                    "currency_label": "\u20ac",
+                    "price_type": "SPECIFIED_AMOUNT",
+                    "negotiable": false
+                },
+                "shipping_available": null,
+                "buy_now_available": false,
+                "images": [
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/50/50bf40ab-d906-4833-9829-9de936420a8d?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/02/02bb320d-d54f-44f2-9c5b-b2c4f32be6aa?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/9f/9f93f4d8-389b-4c83-95d1-2891f54092f8?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/09/09f4de33-cd57-44f6-a4a4-c25230b89ee8?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ff/ff77e86a-6617-4977-aafc-a1287469969c?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/90/90748ed8-e417-4c4b-b79d-68f5a8a01bf9?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/21/219c9fc4-cb8a-48c2-b167-37d93f6ebb82?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/13/13bd94c6-808c-48f5-b4da-c462b80cc4e4?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/e1/e1a40a0c-9531-491a-9ea8-e620d06e5f27?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/70/700b25dc-9e52-44f9-bcf7-d42a2a562e21?rule=$_57.AUTO"
+                ],
+                "links": [
+                    {
+                        "rel": "self-public-website",
+                        "href": "https://www.kleinanzeigen.de/s-anzeige/einsteiger-gaming-pc-intel-10105-b560m-gtx-1650-16gb-/3554247344-228-2472"
+                    }
+                ],
+                "ad_url": "https://www.kleinanzeigen.de/s-anzeige/einsteiger-gaming-pc-intel-10105-b560m-gtx-1650-16gb-/3554247344-228-2472",
+                "views": null,
+                "created_at": "2026-10-27T17:59:43.000Z",
+                "status": "ACTIVE",
+                "deleted": false,
+                "seller": {
+                    "seller_id": "14343887",
+                    "name": null,
+                    "type": "PRIVATE",
+                    "account_type": "PRIVATE",
+                    "store_id": null,
+                    "store_title": null,
+                    "company_id": null,
+                    "since": null,
+                    "badges": []
+                },
+                "location": {
+                    "id": "2472",
+                    "name": "27777 Ganderkesee",
+                    "city": "Ganderkesee",
+                    "state": "Niedersachsen",
+                    "zip": "27777",
+                    "latitude": 53.051563,
+                    "longitude": 8.543623,
+                    "radius": 5.75
+                },
+                "category": {
+                    "id": "228",
+                    "name": "PCs",
+                    "parent_id": null
+                },
+                "attributes": [
+                    {
+                        "name": "pcs.condition",
+                        "label": "Zustand",
+                        "values": [
+                            {
+                                "value": "ok",
+                                "label": "Gut"
+                            }
+                        ]
+                    }
+                ],
+                "details": {
+                    "Zustand": "Gut"
+                }
+            },
+            {
+                "ad_id": "3554247152",
+                "title": "Gaming PC Set, Intel Xeon i7 8x 3.3GHz, GTX 1060, 16GB Ram, SSD",
+                "description": "BeQuiet Gaming PC Set mit guten Komponenten. Der PC zuverl\u00e4ssig und es gibt keine Probleme. Viele Spiele k\u00f6nnen damit noch fl\u00fcssig gespielt werden. Komponenten: - Intel Xeon E3 1230 V3 (identisch zu Core i7-4770 Prozessor mit 8...",
+                "price": {
+                    "amount": 350,
+                    "currency_code": "EUR",
+                    "currency_label": "\u20ac",
+                    "price_type": "SPECIFIED_AMOUNT",
+                    "negotiable": false
+                },
+                "shipping_available": null,
+                "buy_now_available": false,
+                "images": [
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/f8/f80cf861-a6fa-4fa8-b85d-10a44bdce3bf?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/3d/3dd14fe3-b916-44e8-bdce-3590b680bee8?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/0a/0af95a3c-f1ac-493d-b129-8802df71c1f5?rule=$_57.AUTO"
+                ],
+                "links": [
+                    {
+                        "rel": "self-public-website",
+                        "href": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-set-intel-xeon-i7-8x-3-3ghz-gtx-1060-16gb-ram-ssd/3554247152-228-6819"
+                    }
+                ],
+                "ad_url": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-set-intel-xeon-i7-8x-3-3ghz-gtx-1060-16gb-ram-ssd/3554247152-228-6819",
+                "views": null,
+                "created_at": "2026-10-27T17:59:30.000Z",
+                "status": "ACTIVE",
+                "deleted": false,
+                "seller": {
+                    "seller_id": "74070081",
+                    "name": null,
+                    "type": "PRIVATE",
+                    "account_type": "PRIVATE",
+                    "store_id": null,
+                    "store_title": null,
+                    "company_id": null,
+                    "since": null,
+                    "badges": []
+                },
+                "location": {
+                    "id": "6819",
+                    "name": "90482 Oststadt",
+                    "city": "Oststadt",
+                    "state": "Bayern",
+                    "zip": "90482",
+                    "latitude": 49.467724,
+                    "longitude": 11.147402,
+                    "radius": 2.2
+                },
+                "category": {
+                    "id": "228",
+                    "name": "PCs",
+                    "parent_id": null
+                },
+                "attributes": [
+                    {
+                        "name": "pcs.condition",
+                        "label": "Zustand",
+                        "values": [
+                            {
+                                "value": "ok",
+                                "label": "Gut"
+                            }
+                        ]
+                    }
+                ],
+                "details": {
+                    "Zustand": "Gut"
+                }
+            },
+            {
+                "ad_id": "3548043665",
+                "title": "Gaming-PC Ryzen 5 3600 GTX 1660 16 GB 500-GB-SSD",
+                "description": "Ich verkaufe einen funktionsf\u00e4higen, vollst\u00e4ndig gereinigten und wieder aufgebauten und sauber zur\u00fcckgesetzten Gaming-PC. Technische Daten: - Prozessor: AMD Ryzen 5 3600, 6 Kerne / 12 Threads - Grafikkarte: NVIDIA GeForce...",
+                "price": {
+                    "amount": 270,
+                    "currency_code": "EUR",
+                    "currency_label": "\u20ac",
+                    "price_type": "PLEASE_CONTACT",
+                    "negotiable": false
+                },
+                "shipping_available": null,
+                "buy_now_available": false,
+                "images": [
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/da/da738f8a-4997-496c-a4a1-f47d02f4f680?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/23/23ea526d-0ff6-42ce-8aab-6b9157f62c8a?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/e5/e5ef545e-6571-46d9-9d2e-01b47ae31985?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/54/54bad089-1bd7-495b-a42e-37d8817b1da6?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/36/3629b53d-d32d-42cd-aaa7-10b2014aacbb?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/64/646159cc-d002-4758-bf3a-868c02c9fff2?rule=$_57.AUTO"
+                ],
+                "links": [
+                    {
+                        "rel": "self-public-website",
+                        "href": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-ryzen-5-3600-gtx-1660-16-gb-500-gb-ssd/3548043665-228-3352"
+                    }
+                ],
+                "ad_url": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-ryzen-5-3600-gtx-1660-16-gb-500-gb-ssd/3548043665-228-3352",
+                "views": null,
+                "created_at": "2026-10-27T17:58:07.000Z",
+                "status": "ACTIVE",
+                "deleted": false,
+                "seller": {
+                    "seller_id": "163490398",
+                    "name": null,
+                    "type": "PRIVATE",
+                    "account_type": "PRIVATE",
+                    "store_id": null,
+                    "store_title": null,
+                    "company_id": null,
+                    "since": null,
+                    "badges": []
+                },
+                "location": {
+                    "id": "3352",
+                    "name": "10245 Friedrichshain",
+                    "city": "Friedrichshain",
+                    "state": "Berlin",
+                    "zip": "10245",
+                    "latitude": 52.501934,
+                    "longitude": 13.455447,
+                    "radius": 1.79
+                },
+                "category": {
+                    "id": "228",
+                    "name": "PCs",
+                    "parent_id": null
+                },
+                "attributes": [
+                    {
+                        "name": "pcs.condition",
+                        "label": "Zustand",
+                        "values": [
+                            {
+                                "value": "ok",
+                                "label": "Gut"
+                            }
+                        ]
+                    }
+                ],
+                "details": {
+                    "Zustand": "Gut"
+                }
+            },
+            {
+                "ad_id": "3554244671",
+                "title": "Titel: Gaming-PC \u2013 GTX 1660, Intel i7-6700, 32 GB RAM, SSD 240GB",
+                "description": "Ich verkaufe meinen PC mit folgender Ausstattung: Technische Daten: Grafikkarte: NVIDIA GeForce GTX 1660 mit 6 GB VRAM Prozessor: Intel Core i7-6700 mit 4 Kernen und 8 Threads Arbeitsspeicher: 32 GB RAM Speicher: 240 GB SSD...",
+                "price": {
+                    "amount": 450,
+                    "currency_code": "EUR",
+                    "currency_label": "\u20ac",
+                    "price_type": "PLEASE_CONTACT",
+                    "negotiable": false
+                },
+                "shipping_available": null,
+                "buy_now_available": false,
+                "images": [
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/96/9633e8b3-7391-443b-8dd8-8f99e5c1c903?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/10/10723d27-8e14-4c7e-8f03-23b3a2d66229?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/7b/7b708b78-62ac-4c10-9209-306fefdab0b5?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/29/29b57c56-4291-4e30-8332-031c29490fba?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/c9/c9ef9584-a618-4407-aa86-54dbb541e3e3?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/8b/8b2a9992-d887-4bb0-a6c1-2cda0e2eec06?rule=$_57.AUTO"
+                ],
+                "links": [
+                    {
+                        "rel": "self-public-website",
+                        "href": "https://www.kleinanzeigen.de/s-anzeige/titel-gaming-pc-gtx-1660-intel-i7-6700-32-gb-ram-ssd-240gb/3554244671-228-3098"
+                    }
+                ],
+                "ad_url": "https://www.kleinanzeigen.de/s-anzeige/titel-gaming-pc-gtx-1660-intel-i7-6700-32-gb-ram-ssd-240gb/3554244671-228-3098",
+                "views": null,
+                "created_at": "2026-10-27T17:56:35.000Z",
+                "status": "ACTIVE",
+                "deleted": false,
+                "seller": {
+                    "seller_id": "145439502",
+                    "name": null,
+                    "type": "PRIVATE",
+                    "account_type": "PRIVATE",
+                    "store_id": null,
+                    "store_title": null,
+                    "company_id": null,
+                    "since": null,
+                    "badges": []
+                },
+                "location": {
+                    "id": "3098",
+                    "name": "26388 Wilhelmshaven",
+                    "city": "Wilhelmshaven",
+                    "state": "Niedersachsen",
+                    "zip": "26388",
+                    "latitude": 53.58461,
+                    "longitude": 8.065779,
+                    "radius": 4.35
+                },
+                "category": {
+                    "id": "228",
+                    "name": "PCs",
+                    "parent_id": null
+                },
+                "attributes": [
+                    {
+                        "name": "pcs.condition",
+                        "label": "Zustand",
+                        "values": [
+                            {
+                                "value": "ok",
+                                "label": "Gut"
+                            }
+                        ]
+                    }
+                ],
+                "details": {
+                    "Zustand": "Gut"
+                }
+            },
+            {
+                "ad_id": "3554240935",
+                "title": "Gaming PC zu verkaufen",
+                "description": "Verkauft, wird ein voll funktionst\u00fcchtiger Gaming PC mit Wasserk\u00fchlung. Der Pc wurde von mir zusammengebaut, aus Gebrauchtteilen, funktioniert dennoch einwandfrei. Specs: AMD Ryzen 7 5800x 32GB DDR4 RAM <br...",
+                "price": {
+                    "amount": 600,
+                    "currency_code": "EUR",
+                    "currency_label": "\u20ac",
+                    "price_type": "PLEASE_CONTACT",
+                    "negotiable": false
+                },
+                "shipping_available": null,
+                "buy_now_available": false,
+                "images": [
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/5a/5aa009e1-259a-4ba0-bc16-1eddc0da2248?rule=$_57.AUTO"
+                ],
+                "links": [
+                    {
+                        "rel": "self-public-website",
+                        "href": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-zu-verkaufen/3554240935-228-2682"
+                    }
+                ],
+                "ad_url": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-zu-verkaufen/3554240935-228-2682",
+                "views": null,
+                "created_at": "2026-10-27T17:52:16.000Z",
+                "status": "ACTIVE",
+                "deleted": false,
+                "seller": {
+                    "seller_id": "84153379",
+                    "name": null,
+                    "type": "PRIVATE",
+                    "account_type": "PRIVATE",
+                    "store_id": null,
+                    "store_title": null,
+                    "company_id": null,
+                    "since": null,
+                    "badges": []
+                },
+                "location": {
+                    "id": "2682",
+                    "name": "31311 Uetze",
+                    "city": "Uetze",
+                    "state": "Niedersachsen",
+                    "zip": "31311",
+                    "latitude": 52.465214,
+                    "longitude": 10.203209,
+                    "radius": 6.25
+                },
+                "category": {
+                    "id": "228",
+                    "name": "PCs",
+                    "parent_id": null
+                },
+                "attributes": [
+                    {
+                        "name": "pcs.condition",
+                        "label": "Zustand",
+                        "values": [
+                            {
+                                "value": "ok",
+                                "label": "Gut"
+                            }
+                        ]
+                    }
+                ],
+                "details": {
+                    "Zustand": "Gut"
+                }
+            },
+            {
+                "ad_id": "3554240366",
+                "title": "RGB Gaming PC",
+                "description": "Verkaufe einen Gaming-PC in ausgezeichnetem Zustand. Er verf\u00fcgt \u00fcber Gaming-Arbeitsspeicher und eine Gaming-Grafikkarte. Au\u00dferdem wurde eine neue K\u00fchlung installiert. Windows 11 ist frisch installiert. Komponenten: * AMD Ryzen...",
+                "price": {
+                    "amount": 400,
+                    "currency_code": "EUR",
+                    "currency_label": "\u20ac",
+                    "price_type": "SPECIFIED_AMOUNT",
+                    "negotiable": false
+                },
+                "shipping_available": null,
+                "buy_now_available": false,
+                "images": [
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/88/8858728b-1c32-41fc-9bbc-040e09e1ba7c?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/a5/a5a1c2fc-39e1-4816-bab2-9d08e23435b0?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/cd/cd525537-2a2b-4f91-8e60-7c6cd7902073?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/c1/c158be31-fdcf-4da9-ab0a-7798215f475e?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/a7/a78578c6-d00a-4eca-ad88-3e68e7220bf5?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/95/95ee5243-c11d-448b-850c-6e30b34c0925?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/7f/7fcad5cd-5ef6-4f1e-a6b7-6c145cf4a4ff?rule=$_57.AUTO"
+                ],
+                "links": [
+                    {
+                        "rel": "self-public-website",
+                        "href": "https://www.kleinanzeigen.de/s-anzeige/rgb-gaming-pc/3554240366-228-4891"
+                    }
+                ],
+                "ad_url": "https://www.kleinanzeigen.de/s-anzeige/rgb-gaming-pc/3554240366-228-4891",
+                "views": null,
+                "created_at": "2026-10-27T17:51:33.000Z",
+                "status": "ACTIVE",
+                "deleted": false,
+                "seller": {
+                    "seller_id": "119156845",
+                    "name": null,
+                    "type": "PRIVATE",
+                    "account_type": "PRIVATE",
+                    "store_id": null,
+                    "store_title": null,
+                    "company_id": null,
+                    "since": null,
+                    "badges": []
+                },
+                "location": {
+                    "id": "4891",
+                    "name": "64293 Darmstadt",
+                    "city": "Darmstadt",
+                    "state": "Hessen",
+                    "zip": "64293",
+                    "latitude": 49.877636,
+                    "longitude": 8.628537,
+                    "radius": 1.76
+                },
+                "category": {
+                    "id": "228",
+                    "name": "PCs",
+                    "parent_id": null
+                },
+                "attributes": [
+                    {
+                        "name": "pcs.condition",
+                        "label": "Zustand",
+                        "values": [
+                            {
+                                "value": "like_new",
+                                "label": "Sehr Gut"
+                            }
+                        ]
+                    }
+                ],
+                "details": {
+                    "Zustand": "Sehr Gut"
+                }
+            },
+            {
+                "ad_id": "3554240156",
+                "title": "Gaming PC Intel i7-7700K 4.20GHz, Nvidia GeForce GTX",
+                "description": "Ich biete hier einen Gaming PC zum Verkauf an. Der Rechner ist solide ausgestattet und bietet ausreichend Leistung f\u00fcr verschiedene Anwendungen. - Prozessor: Intel(R) Core(TM) i7-7700K CPU 4.20GHz - Grafikkarte: NVIDIA GeForce GTX...",
+                "price": {
+                    "amount": 420,
+                    "currency_code": "EUR",
+                    "currency_label": "\u20ac",
+                    "price_type": "SPECIFIED_AMOUNT",
+                    "negotiable": false
+                },
+                "shipping_available": null,
+                "buy_now_available": false,
+                "images": [
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/66/66a9acb8-5e0a-4f65-9bd4-8946a38e1bf6?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/53/53e7b5f4-a855-4e61-9a1c-59719b30bff7?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/8e/8ecae590-a4b7-477f-8143-626a5e4563ee?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/c6/c6c945b4-eb80-47ca-acfc-76e9f1942c5f?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/3f/3fb217da-3840-4bca-bee3-0d64f4c5ca60?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/42/42b56547-7f8b-4f4b-8cd0-c89912bd583f?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/3d/3d54c494-147a-4319-95fe-b5a486ab1221?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/b8/b8982cd3-6b1e-4365-9c9e-c020d8eb489c?rule=$_57.AUTO"
+                ],
+                "links": [
+                    {
+                        "rel": "self-public-website",
+                        "href": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-intel-i7-7700k-4-20ghz-nvidia-geforce-gtx/3554240156-228-30072"
+                    }
+                ],
+                "ad_url": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-intel-i7-7700k-4-20ghz-nvidia-geforce-gtx/3554240156-228-30072",
+                "views": null,
+                "created_at": "2026-10-27T17:51:20.000Z",
+                "status": "ACTIVE",
+                "deleted": false,
+                "seller": {
+                    "seller_id": "137844754",
+                    "name": null,
+                    "type": "PRIVATE",
+                    "account_type": "PRIVATE",
+                    "store_id": null,
+                    "store_title": null,
+                    "company_id": null,
+                    "since": null,
+                    "badges": []
+                },
+                "location": {
+                    "id": "30072",
+                    "name": "04159 Wahren",
+                    "city": "Wahren",
+                    "state": "Sachsen",
+                    "zip": "04159",
+                    "latitude": 51.3764,
+                    "longitude": 12.31481,
+                    "radius": 5
+                },
+                "category": {
+                    "id": "228",
+                    "name": "PCs",
+                    "parent_id": null
+                },
+                "attributes": [
+                    {
+                        "name": "pcs.condition",
+                        "label": "Zustand",
+                        "values": [
+                            {
+                                "value": "like_new",
+                                "label": "Sehr Gut"
+                            }
+                        ]
+                    }
+                ],
+                "details": {
+                    "Zustand": "Sehr Gut"
+                }
+            },
+            {
+                "ad_id": "3554237423",
+                "title": "Gaming PC Ryzen 7 5800X, 32GB RAM, ASUS TUF RX 6900 XT",
+                "description": "Ich verkaufe hier meinen leistungsstarken Gaming-PC, der sich ideal f\u00fcr anspruchsvolle Spiele eignet. Bitte beachte, dass der CPU-K\u00fchler nicht im Lieferumfang enthalten ist. - Prozessor: AMD Ryzen 7 5800X - Grafikkarte: ASUS TUF...",
+                "price": {
+                    "amount": 650,
+                    "currency_code": "EUR",
+                    "currency_label": "\u20ac",
+                    "price_type": "SPECIFIED_AMOUNT",
+                    "negotiable": false
+                },
+                "shipping_available": true,
+                "buy_now_available": false,
+                "images": [
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/00/005bae48-2c09-48d3-ad88-683d8af65b51?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/91/9130445c-4378-4ccc-b299-be3acae3a484?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/6c/6ccc0799-6e16-4e88-a99b-b6cd0265611f?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/7a/7a2563fc-d6a0-4014-839b-225710650722?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/38/38569f7e-f822-4490-90e7-fe658245cf12?rule=$_57.AUTO"
+                ],
+                "links": [
+                    {
+                        "rel": "self-public-website",
+                        "href": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-ryzen-7-5800x-32gb-ram-asus-tuf-rx-6900-xt/3554237423-228-9542"
+                    }
+                ],
+                "ad_url": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-ryzen-7-5800x-32gb-ram-asus-tuf-rx-6900-xt/3554237423-228-9542",
+                "views": null,
+                "created_at": "2026-10-27T17:48:09.000Z",
+                "status": "ACTIVE",
+                "deleted": false,
+                "seller": {
+                    "seller_id": "56815655",
+                    "name": null,
+                    "type": "PRIVATE",
+                    "account_type": "PRIVATE",
+                    "store_id": null,
+                    "store_title": null,
+                    "company_id": null,
+                    "since": null,
+                    "badges": []
+                },
+                "location": {
+                    "id": "9542",
+                    "name": "24145 Wellsee-Kronsburg-R\u00f6nne",
+                    "city": "Wellsee-Kronsburg-R\u00f6nne",
+                    "state": "Schleswig-Holstein",
+                    "zip": "24145",
+                    "latitude": 54.280163,
+                    "longitude": 10.183737,
+                    "radius": 0.83
+                },
+                "category": {
+                    "id": "228",
+                    "name": "PCs",
+                    "parent_id": null
+                },
+                "attributes": [
+                    {
+                        "name": "pcs.condition",
+                        "label": "Zustand",
+                        "values": [
+                            {
+                                "value": "like_new",
+                                "label": "Sehr Gut"
+                            }
+                        ]
+                    }
+                ],
+                "details": {
+                    "Zustand": "Sehr Gut"
+                }
+            },
+            {
+                "ad_id": "3554230134",
+                "title": "Gaming PC 1660 Super",
+                "description": "Hiermit biete ich meinen Gaming Pc an Verbaut ist eine GPU:GTX 1660 Super 8gb CPU: AMD RYZEN 5 3500x 8 Gb RAM 500gb SSD 1000gb HDD Der Pc l\u00e4uft super das einzige was man eventuell wecheln m\u00fcsste w\u00e4re der CPU...",
+                "price": {
+                    "amount": 400,
+                    "currency_code": "EUR",
+                    "currency_label": "\u20ac",
+                    "price_type": "PLEASE_CONTACT",
+                    "negotiable": false
+                },
+                "shipping_available": null,
+                "buy_now_available": false,
+                "images": [
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/8d/8d30e35f-a22f-4c09-b976-853095c2d636?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/08/08590433-10eb-401a-a9f3-64a46336cfdb?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/9a/9a6f5448-e06f-41f6-ac64-4b38dc1ca0f9?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/34/34efd7f9-c82b-4a2b-81ea-5e979034e20d?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/5e/5e83f0e9-dbf8-4c53-90cb-2fbff9efea05?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/33/33eaaa92-c627-44d4-b437-b64396a4ea90?rule=$_57.AUTO"
+                ],
+                "links": [
+                    {
+                        "rel": "self-public-website",
+                        "href": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-1660-super/3554230134-228-3511"
+                    }
+                ],
+                "ad_url": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-1660-super/3554230134-228-3511",
+                "views": null,
+                "created_at": "2026-10-27T17:39:42.000Z",
+                "status": "ACTIVE",
+                "deleted": false,
+                "seller": {
+                    "seller_id": "58090960",
+                    "name": null,
+                    "type": "PRIVATE",
+                    "account_type": "PRIVATE",
+                    "store_id": null,
+                    "store_title": null,
+                    "company_id": null,
+                    "since": null,
+                    "badges": []
+                },
+                "location": {
+                    "id": "3511",
+                    "name": "12619 Hellersdorf",
+                    "city": "Hellersdorf",
+                    "state": "Berlin",
+                    "zip": "12619",
+                    "latitude": 52.52426,
+                    "longitude": 13.590641,
+                    "radius": 1.81
+                },
+                "category": {
+                    "id": "228",
+                    "name": "PCs",
+                    "parent_id": null
+                },
+                "attributes": [
+                    {
+                        "name": "pcs.condition",
+                        "label": "Zustand",
+                        "values": [
+                            {
+                                "value": "ok",
+                                "label": "Gut"
+                            }
+                        ]
+                    }
+                ],
+                "details": {
+                    "Zustand": "Gut"
+                }
+            },
+            {
+                "ad_id": "3554229561",
+                "title": "Gaming PC.",
+                "description": "Hey verkaufe meinen alten Gaming PC Grafikkarte GTX 960 1 TB festplatte 128GB SSD Be quiet CPU k\u00fchle und 550 W netzteil 16GB RAM PC funktioniert einwandfrei Mit tastatur von Roccat",
+                "price": {
+                    "amount": 350,
+                    "currency_code": "EUR",
+                    "currency_label": "\u20ac",
+                    "price_type": "PLEASE_CONTACT",
+                    "negotiable": false
+                },
+                "shipping_available": true,
+                "buy_now_available": true,
+                "images": [
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/6b/6b68a4cb-9d84-4f10-af2b-301e7d970f8e?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/dd/dd45ea11-5189-428a-9c97-78c0797c174b?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/5f/5fa47e4b-c7d3-4fa8-bc5c-79dc15e64321?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/0a/0a43f06a-b9be-4fbb-9603-860123e9f92e?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/58/58612d39-abb7-4c35-baac-07ccb202435e?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/42/4248f7ce-ee35-45fb-b6ea-6b971ceef396?rule=$_57.AUTO",
+                    "https://img.kleinanzeigen.de/api/v1/prod-ads/images/1e/1e27b731-1dd4-4572-b812-57f70a33a902?rule=$_57.AUTO"
+                ],
+                "links": [
+                    {
+                        "rel": "self-public-website",
+                        "href": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-/3554229561-228-6395"
+                    }
+                ],
+                "ad_url": "https://www.kleinanzeigen.de/s-anzeige/gaming-pc-/3554229561-228-6395",
+                "views": null,
+                "created_at": "2026-10-27T17:39:01.000Z",
+                "status": "ACTIVE",
+                "deleted": false,
+                "seller": {
+                    "seller_id": "159172189",
+                    "name": null,
+                    "type": "PRIVATE",
+                    "account_type": "PRIVATE",
+                    "store_id": null,
+                    "store_title": null,
+                    "company_id": null,
+                    "since": null,
+                    "badges": []
+                },
+                "location": {
+                    "id": "6395",
+                    "name": "84036 Kumhausen",
+                    "city": "Kumhausen",
+                    "state": "Bayern",
+                    "zip": "84036",
+                    "latitude": 48.523647,
+                    "longitude": 12.205363,
+                    "radius": 3.15
+                },
+                "category": {
+                    "id": "228",
+                    "name": "PCs",
+                    "parent_id": null
+                },
+                "attributes": [
+                    {
+                        "name": "pcs.condition",
+                        "label": "Zustand",
+                        "values": [
+                            {
+                                "value": "ok",
+                                "label": "Gut"
+                            }
+                        ]
+                    }
+                ],
+                "details": {
+                    "Zustand": "Gut"
+                }
+            }
+        ]
+    },
+    "request_id": "4e499b35-b0b3-4606-bf09-52af62561b29"
+}

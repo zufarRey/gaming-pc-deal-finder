@@ -1,161 +1,16 @@
-import requests
 
-import os
 
 import re
 
-api_key = os.getenv("KLAZ_KEY")
-url = "https://api.kleinanzeigen-agent.de/api/v2/kleinanzeigen/search"
-header = {
-    "klaz_key": api_key
+import pandas as pd
+import fetch_data as fd
 
-}
-params = {
-    "q": "gaming pc",
-    "size": 5,
-    "max_price": 750
-}
-
-respones = requests.get(url, params=params, headers=header)
-
-# test Data
-data = {
-    "success": True,
-    "message": "Synthetic test data",
-    "data": {
-        "meta": {
-            "page": 1,
-            "size": 9,
-            "total": 9
-        },
-        "ads": [
-            {
-                "ad_id": "test001",
-                "title": "Gaming PC mit RTX 3070",
-                "description": "Intel Core i5-12400F, 16 GB RAM und 1 TB SSD.",
-                "price": {
-                    "amount": 650
-                },
-                "location": {
-                    "city": "Frankfurt am Main"
-                },
-                "created_at": "2026-10-19T10:00:00.000Z",
-                "ad_url": "https://example.com/test001"
-            },
-            {
-                "ad_id": "test002",
-                "title": "Starker Gaming PC",
-                "description": "Verbaut sind Ryzen 5 5600 und eine RX 6700 XT sowie RAM: 32 GB.",
-                "price": {
-                    "amount": 600
-                },
-                "location": {
-                    "city": "Darmstadt"
-                },
-                "created_at": "2026-10-19T10:01:00.000Z",
-                "ad_url": "https://example.com/test002"
-            },
-            {
-                "ad_id": "test003",
-                "title": "Gaming Rechner GTX-1660 Super",
-                "description": "Gaming PC mit i7 10700K, 2x8 GB RAM und SSD.",
-                "price": {
-                    "amount": 500
-                },
-                "location": {
-                    "city": "Mainz"
-                },
-                "created_at": "2026-10-19T10:02:00.000Z",
-                "ad_url": "https://example.com/test003"
-            },
-            {
-                "ad_id": "test004",
-                "title": "Gaming Computer komplett",
-                "description": "Leistungsstarker Rechner mit R7 5800X3D, DDR4 2x16GB und SSD.",
-                "price": {
-                    "amount": 700
-                },
-                "location": {
-                    "city": "Wiesbaden"
-                },
-                "created_at": "2026-10-19T10:03:00.000Z",
-                "ad_url": "https://example.com/test004"
-            },
-            {
-                "ad_id": "test005",
-                "title": "Gaming PC RTX 3060",
-                "description": "Gaming PC in gutem Zustand mit Ryzen Prozessor und 16 GB DDR4.",
-                "price": {
-                    "amount": 550
-                },
-                "location": {
-                    "city": "Offenbach"
-                },
-                "created_at": "2026-10-19T10:04:00.000Z",
-                "ad_url": "https://example.com/test005"
-            },
-            {
-                "ad_id": "test006",
-                "title": "Gaming PC mit RX 6600",
-                "description": "32 GB DDR5 5600 RAM, 1 TB NVMe SSD und Gaming Mainboard.",
-                "price": {
-                    "amount": 500
-                },
-                "location": {
-                    "city": "Hanau"
-                },
-                "created_at": "2026-10-19T10:05:00.000Z",
-                "ad_url": "https://example.com/test006"
-            },
-            {
-                "ad_id": "test007",
-                "title": "Gaming PC RTX 4060",
-                "description": "AMD Ryzen 5 4600G mit DDR5 32 GB und 1 TB SSD.",
-                "price": {
-                    "amount": 600
-                },
-                "location": {
-                    "city": "Bad Homburg"
-                },
-                "created_at": "2026-10-19T10:06:00.000Z",
-                "ad_url": "https://example.com/test007"
-            },
-            {
-                "ad_id": "test008",
-                "title": "High End Gaming PC RX 6800 XT",
-                "description": "Intel Core i5-12600KF mit 2 x 16 GB DDR4 und 2 TB SSD.",
-                "price": {
-                    "amount": 740
-                },
-                "location": {
-                    "city": "Aschaffenburg"
-                },
-                "created_at": "2026-10-19T10:07:00.000Z",
-                "ad_url": "https://example.com/test008"
-            },
-            {
-                "ad_id": "test009",
-                "title": "Gaming PC mit RTX 3070 8GB",
-                "description": "RTX 3070 8GB GDDR6 verbaut, SSD vorhanden.",
-                "price": {
-                    "amount": 620
-                },
-                "location": {
-                    "city": "Frankfurt am Main"
-                },
-                "created_at": "2026-10-19T10:08:00.000Z",
-                "ad_url": "https://example.com/test009"
-            }
-        ]
-    },
-    "request_id": "synthetic-test"
-}
 
 # real Data
-# data = respones.json()
+data = fd.load_snapshot_data()
 
 # print(data['success'])
-# print(data['error_code'])
+
 # print(data['message'])
 # print(data["data"]['ads'])
 # print(data['request_id'])
@@ -428,4 +283,15 @@ for x in text_filtered_ads:
     x["ram_gb"] = normed_ram
 
 
-print(text_filtered_ads)
+# print(text_filtered_ads)
+df = pd.DataFrame(text_filtered_ads)
+candidate_df = df[(df["gpu_score"] >= 60) | (df["gpu_score"].isna())]
+candidate_df = candidate_df[(candidate_df["cpu_score"] >= 60) | (
+    candidate_df["cpu_score"].isna())]
+# print(candidate_df[
+#    ["price", "gpu", "gpu_score", "cpu", "cpu_score", "ram_gb"]
+# ])
+
+sorted_df = candidate_df.sort_values(
+    ["gpu_score", "cpu_score", "price"], ascending=[False, False, True])
+print(sorted_df[["price", "gpu", "gpu_score", "cpu", "cpu_score", "ram_gb"]])
