@@ -9,28 +9,26 @@ import fetch_data as fd
 # real Data
 data = fd.load_snapshot_data()
 
-# print(data['success'])
 
-# print(data['message'])
-# print(data["data"]['ads'])
-# print(data['request_id'])
-# print(data)
+def load_ads(rawData):
+    cleaned_ads = []
+    for x in rawData["data"]["ads"]:
+        temp_dict = {
+            "title": x["title"],
+            "price": x["price"]["amount"],
+            "city": x["location"]["city"],
+            "url": x["ad_url"],
+            "ad_id": x["ad_id"],
+            "description": x["description"],
+            "created_at": x["created_at"]
 
-# title price city url
-cleaned_ads = []
-for x in data["data"]["ads"]:
-    temp_dict = {
-        "title": x["title"],
-        "price": x["price"]["amount"],
-        "city": x["location"]["city"],
-        "url": x["ad_url"],
-        "ad_id": x["ad_id"],
-        "description": x["description"],
-        "created_at": x["created_at"]
+        }
+        cleaned_ads.append(temp_dict)
+    return cleaned_ads
 
-    }
-    cleaned_ads.append(temp_dict)
-# print(cleaned_ads)
+
+cleaned_ads = load_ads(data)
+
 
 price_filtered_ads = []
 for x in cleaned_ads:
@@ -295,3 +293,5 @@ candidate_df = candidate_df[(candidate_df["cpu_score"] >= 60) | (
 sorted_df = candidate_df.sort_values(
     ["gpu_score", "cpu_score", "price"], ascending=[False, False, True])
 print(sorted_df[["price", "gpu", "gpu_score", "cpu", "cpu_score", "ram_gb"]])
+
+sorted_df.to_csv("output/candidate.csv", index=False)
