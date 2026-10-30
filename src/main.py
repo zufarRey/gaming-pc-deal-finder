@@ -30,25 +30,36 @@ def load_ads(rawData):
 cleaned_ads = load_ads(data)
 
 
-price_filtered_ads = []
-for x in cleaned_ads:
-    if x["price"] <= 750 and x["price"] >= 250:
-        price_filtered_ads.append(x)
-# print("vergleich gefiltert", price_filtered_ads)
+def price_filtering_ads(not_priced_filtered_ads):
+    temp_price_filtered_ads = []
+    for x in not_priced_filtered_ads:
+        if x["price"] <= 750 and x["price"] >= 250:
+            temp_price_filtered_ads.append(x)
+    return temp_price_filtered_ads
 
-text_filtered_ads = []
-text_filter_criteria = ["defekt", "bastler", "ersatzteil", "teileträger",
-                        "ohne funktion", "funktioniert nicht", "ohne grafikkarte", "ohne gpu", "nur gehäuse"]
-for x in price_filtered_ads:
-    bad_ads = False
-    title = x["title"].lower()
-    description = x["description"].lower()
-    for exclusion__keyword in text_filter_criteria:
-        if exclusion__keyword in title or exclusion__keyword in description:
-            bad_ads = True
-            break
-    if bad_ads is False:
-        text_filtered_ads.append(x)
+
+price_filtered_ads = price_filtering_ads(cleaned_ads)
+
+
+def filter_text_ads(unfiltered_text_ads):
+    filtered_ads = []
+    text_filter_criteria = ["defekt", "bastler", "ersatzteil", "teileträger",
+                            "ohne funktion", "funktioniert nicht", "ohne grafikkarte", "ohne gpu", "nur gehäuse"]
+
+    for x in unfiltered_text_ads:
+        bad_ads = False
+        title = x["title"].lower()
+        description = x["description"].lower()
+        for exclusion__keyword in text_filter_criteria:
+            if exclusion__keyword in title or exclusion__keyword in description:
+                bad_ads = True
+                break
+        if bad_ads is False:
+            filtered_ads.append(x)
+    return filtered_ads
+
+
+defect_filtered_ads = filter_text_ads(price_filtered_ads)
 
 
 pattern_gpu = r"(RTX|GTX|RX)[-\s]*\d{4}[-\s]*(TI|Super|XTX|XT)?"
@@ -209,80 +220,102 @@ cpu_scores = {
     "I714700KF": 100
 }
 
-for x in text_filtered_ads:
-    unnormed_gpu = re.search(pattern_gpu, x["description"], re.IGNORECASE)
-    if unnormed_gpu is not None:
-        unnormed_gpu = unnormed_gpu.group()
-    if unnormed_gpu is None:
-        unnormed_gpu = re.search(pattern_gpu, x["title"], re.IGNORECASE)
+
+def extract_gpu_data(ads):
+    for x in ads:
+        unnormed_gpu = re.search(pattern_gpu, x["description"], re.IGNORECASE)
         if unnormed_gpu is not None:
             unnormed_gpu = unnormed_gpu.group()
+        if unnormed_gpu is None:
+            unnormed_gpu = re.search(pattern_gpu, x["title"], re.IGNORECASE)
+            if unnormed_gpu is not None:
+                unnormed_gpu = unnormed_gpu.group()
 
-    normed_gpu = None
+        normed_gpu = None
 
-    if unnormed_gpu is not None:
-        unnormed_gpu = re.sub(r"\s", "", unnormed_gpu)
-        unnormed_gpu = re.sub("-", "", unnormed_gpu)
-        normed_gpu = unnormed_gpu.upper()
+        if unnormed_gpu is not None:
+            unnormed_gpu = re.sub(r"\s", "", unnormed_gpu)
+            unnormed_gpu = re.sub("-", "", unnormed_gpu)
+            normed_gpu = unnormed_gpu.upper()
 
-    x["gpu"] = normed_gpu
-    x["gpu_score"] = gpu_scores.get(x["gpu"])
+        x["gpu"] = normed_gpu
+        x["gpu_score"] = gpu_scores.get(x["gpu"])
+    return ads
 
-    normed_cpu = None
-    unnormed_cpu_intel = re.search(
-        pattern_cpu_intel, x["description"], re.IGNORECASE)
-    if unnormed_cpu_intel is None:
+
+gpu_enriched_ads = extract_gpu_data(defect_filtered_ads)
+
+
+def extract_cpu_data(ads):
+
+    for x in ads:
+
+        normed_cpu = None
         unnormed_cpu_intel = re.search(
-            pattern_cpu_intel, x["title"], re.IGNORECASE)
+            pattern_cpu_intel, x["description"], re.IGNORECASE)
+        if unnormed_cpu_intel is None:
+            unnormed_cpu_intel = re.search(
+                pattern_cpu_intel, x["title"], re.IGNORECASE)
 
-    if unnormed_cpu_intel is not None:
-        unnormed_cpu_intel = unnormed_cpu_intel.group()
-        unnormed_cpu_intel = unnormed_cpu_intel.upper()
-        unnormed_cpu_intel = re.sub(r"INTEL CORE", "", unnormed_cpu_intel)
-        unnormed_cpu_intel = re.sub(r"-", "", unnormed_cpu_intel)
-        unnormed_cpu_intel = re.sub(r"\s", "", unnormed_cpu_intel)
+        if unnormed_cpu_intel is not None:
+            unnormed_cpu_intel = unnormed_cpu_intel.group()
+            unnormed_cpu_intel = unnormed_cpu_intel.upper()
+            unnormed_cpu_intel = re.sub(r"INTEL CORE", "", unnormed_cpu_intel)
+            unnormed_cpu_intel = re.sub(r"-", "", unnormed_cpu_intel)
+            unnormed_cpu_intel = re.sub(r"\s", "", unnormed_cpu_intel)
 
-        normed_cpu = unnormed_cpu_intel
+            normed_cpu = unnormed_cpu_intel
 
-    if normed_cpu is None:
-        unnormed_cpu_ryzen = re.search(
-            pattern_cpu_ryzen, x["description"], re.IGNORECASE)
-        if unnormed_cpu_ryzen is None:
+        if normed_cpu is None:
             unnormed_cpu_ryzen = re.search(
-                pattern_cpu_ryzen, x["title"], re.IGNORECASE)
-        if unnormed_cpu_ryzen is not None:
-            unnormed_cpu_ryzen = unnormed_cpu_ryzen.group()
-            unnormed_cpu_ryzen = unnormed_cpu_ryzen.upper()
-            unnormed_cpu_ryzen = re.sub(
-                r"^R([3579])", r"RYZEN\1", unnormed_cpu_ryzen)
-            unnormed_cpu_ryzen = re.sub(r"\s", "", unnormed_cpu_ryzen)
-            unnormed_cpu_ryzen = re.sub(r"-", "", unnormed_cpu_ryzen)
-            normed_cpu = unnormed_cpu_ryzen
-    x["cpu"] = normed_cpu
-    x["cpu_score"] = cpu_scores.get(x["cpu"])
+                pattern_cpu_ryzen, x["description"], re.IGNORECASE)
+            if unnormed_cpu_ryzen is None:
+                unnormed_cpu_ryzen = re.search(
+                    pattern_cpu_ryzen, x["title"], re.IGNORECASE)
+            if unnormed_cpu_ryzen is not None:
+                unnormed_cpu_ryzen = unnormed_cpu_ryzen.group()
+                unnormed_cpu_ryzen = unnormed_cpu_ryzen.upper()
+                unnormed_cpu_ryzen = re.sub(
+                    r"^R([3579])", r"RYZEN\1", unnormed_cpu_ryzen)
+                unnormed_cpu_ryzen = re.sub(r"\s", "", unnormed_cpu_ryzen)
+                unnormed_cpu_ryzen = re.sub(r"-", "", unnormed_cpu_ryzen)
+                normed_cpu = unnormed_cpu_ryzen
+        x["cpu"] = normed_cpu
+        x["cpu_score"] = cpu_scores.get(x["cpu"])
+    return ads
 
-    normed_ram = None
 
-    unnormed_ram = re.search(pattern_ram, x["description"], re.IGNORECASE)
-    if unnormed_ram is None:
-        unnormed_ram = re.search(pattern_ram, x["title"], re.IGNORECASE)
+cpu_enriched_ads = extract_cpu_data(gpu_enriched_ads)
 
-    if unnormed_ram is not None:
-        unnormed_ram = unnormed_ram.group()
-        unnormed_ram = unnormed_ram.upper()
-        unnormed_ram = re.sub(r"DDR[45]", "", unnormed_ram)
-        ram_number = re.findall(r"\d+", unnormed_ram)
 
-        if "X" in unnormed_ram:
-            normed_ram = int(ram_number[0]) * int(ram_number[1])
+def extract_ram_data(ads):
+    for x in ads:
+        normed_ram = None
 
-        else:
-            normed_ram = int(ram_number[0])
-    x["ram_gb"] = normed_ram
+        unnormed_ram = re.search(pattern_ram, x["description"], re.IGNORECASE)
+        if unnormed_ram is None:
+            unnormed_ram = re.search(pattern_ram, x["title"], re.IGNORECASE)
+
+        if unnormed_ram is not None:
+            unnormed_ram = unnormed_ram.group()
+            unnormed_ram = unnormed_ram.upper()
+            unnormed_ram = re.sub(r"DDR[45]", "", unnormed_ram)
+            ram_number = re.findall(r"\d+", unnormed_ram)
+
+            if "X" in unnormed_ram:
+                normed_ram = int(ram_number[0]) * int(ram_number[1])
+
+            else:
+                normed_ram = int(ram_number[0])
+        x["ram_gb"] = normed_ram
+    return ads
+
+
+ram_enriched_ads = extract_ram_data(cpu_enriched_ads)
 
 
 # print(text_filtered_ads)
-df = pd.DataFrame(text_filtered_ads)
+df = pd.DataFrame(defect_filtered_ads)
 candidate_df = df[(df["gpu_score"] >= 60) | (df["gpu_score"].isna())]
 candidate_df = candidate_df[(candidate_df["cpu_score"] >= 60) | (
     candidate_df["cpu_score"].isna())]
