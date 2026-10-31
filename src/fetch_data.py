@@ -1,6 +1,7 @@
 import json
 import requests
 import os
+from pathlib import Path
 
 
 def fetch_data():
@@ -31,11 +32,9 @@ def fetch_data():
 
 
 def load_snapshot_data():
-    with open("data/raw_ads.json", "r") as file:
+    project_root = Path(__file__).parent.parent
+    data_path = project_root/"data/raw_ads.json"
+    with open(data_path, "r") as file:
         snapshot_data = json.load(file)
 
     return snapshot_data
-
-
-snapshot = load_snapshot_data()
-print(type(snapshot))

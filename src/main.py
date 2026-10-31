@@ -4,15 +4,12 @@ import re
 
 import pandas as pd
 import fetch_data as fd
+from pathlib import Path
 
 
-# real Data
-data = fd.load_snapshot_data()
-
-
-def load_ads(rawData):
+def clean_ads(raw_Data):
     cleaned_ads = []
-    for x in rawData["data"]["ads"]:
+    for x in raw_Data["data"]["ads"]:
         temp_dict = {
             "title": x["title"],
             "price": x["price"]["amount"],
@@ -27,18 +24,12 @@ def load_ads(rawData):
     return cleaned_ads
 
 
-cleaned_ads = load_ads(data)
-
-
-def price_filtering_ads(not_priced_filtered_ads):
+def filter_ads_by_price(not_priced_filtered_ads):
     temp_price_filtered_ads = []
     for x in not_priced_filtered_ads:
         if x["price"] <= 750 and x["price"] >= 250:
             temp_price_filtered_ads.append(x)
     return temp_price_filtered_ads
-
-
-price_filtered_ads = price_filtering_ads(cleaned_ads)
 
 
 def filter_text_ads(unfiltered_text_ads):
@@ -57,9 +48,6 @@ def filter_text_ads(unfiltered_text_ads):
         if bad_ads is False:
             filtered_ads.append(x)
     return filtered_ads
-
-
-defect_filtered_ads = filter_text_ads(price_filtered_ads)
 
 
 pattern_gpu = r"(RTX|GTX|RX)[-\s]*\d{4}[-\s]*(TI|Super|XTX|XT)?"
@@ -243,9 +231,6 @@ def extract_gpu_data(ads):
     return ads
 
 
-gpu_enriched_ads = extract_gpu_data(defect_filtered_ads)
-
-
 def extract_cpu_data(ads):
 
     for x in ads:
@@ -285,9 +270,6 @@ def extract_cpu_data(ads):
     return ads
 
 
-cpu_enriched_ads = extract_cpu_data(gpu_enriched_ads)
-
-
 def extract_ram_data(ads):
     for x in ads:
         normed_ram = None
@@ -311,20 +293,45 @@ def extract_ram_data(ads):
     return ads
 
 
-ram_enriched_ads = extract_ram_data(cpu_enriched_ads)
-
-
 # print(text_filtered_ads)
-df = pd.DataFrame(defect_filtered_ads)
-candidate_df = df[(df["gpu_score"] >= 60) | (df["gpu_score"].isna())]
-candidate_df = candidate_df[(candidate_df["cpu_score"] >= 60) | (
-    candidate_df["cpu_score"].isna())]
-# print(candidate_df[
-#    ["price", "gpu", "gpu_score", "cpu", "cpu_score", "ram_gb"]
-# ])
 
-sorted_df = candidate_df.sort_values(
-    ["gpu_score", "cpu_score", "price"], ascending=[False, False, True])
-print(sorted_df[["price", "gpu", "gpu_score", "cpu", "cpu_score", "ram_gb"]])
 
-sorted_df.to_csv("output/candidate.csv", index=False)
+def filter_candidates(df):
+    candidate_df = df[(df["gpu_score"] >= 60) | (df["gpu_score"].isna())]
+    candidate_df = candidate_df[(candidate_df["cpu_score"] >= 60) | (
+        candidate_df["cpu_score"].isna())]
+    return candidate_df
+
+
+def sort_candidates(df):
+    sorted_df = df.sort_values(
+        ["gpu_score", "cpu_score", "price"], ascending=[False, False, True])
+    return sorted_df
+
+
+def export_candidates_to_csv(df):
+    project_root = Path(__file__).parent.parent
+    output_path = project_root / "output"/"candidate.csv"
+    df.to_csv(output_path, index=False)
+
+
+def main():
+
+    data = fd.load_snapshot_data()
+    cleaned_ads = clean_ads(data)
+    price_filtered_ads = filter_ads_by_price(cleaned_ads)
+    defect_filtered_ads = filter_text_ads(price_filtered_ads)
+    gpu_enriched_ads = extract_gpu_data(defect_filtered_ads)
+    cpu_enriched_ads = extract_cpu_data(gpu_enriched_ads)
+    ram_enriched_ads = extract_ram_data(cpu_enriched_ads)
+    df = pd.DataFrame(ram_enriched_ads)
+    filtered_candidates = filter_candidates(df)
+    sorted_df = sort_candidates(filtered_candidates)
+
+    print(sorted_df[["price", "gpu", "gpu_score",
+          "cpu", "cpu_score", "ram_gb"]])
+    export_candidates_to_csv(sorted_df)
+
+
+if __name__ == "__main__":
+    main()
