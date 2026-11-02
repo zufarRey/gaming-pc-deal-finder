@@ -2,6 +2,7 @@ import json
 import requests
 import os
 from pathlib import Path
+import config as cfg
 
 
 def fetch_data():
@@ -15,8 +16,8 @@ def fetch_data():
     params = {
         "q": "gaming pc",
         "size": 50,
-        "min_price": 250,
-        "max_price": 750,
+        "min_price": cfg.MIN_PRICE,
+        "max_price": cfg.MAX_PRICE,
         "category_id": "228"
 
     }
@@ -25,8 +26,10 @@ def fetch_data():
 
     # real Data
     data = response.json()
+    project_root = Path(__file__).parent.parent
+    data_path = project_root/"data/raw_ads.json"
 
-    with open("data/raw_ads.json", "w")as file:
+    with open(data_path, "w")as file:
         json.dump(data, file, indent=4)
     return data
 

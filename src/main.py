@@ -5,6 +5,9 @@ import re
 import pandas as pd
 import fetch_data as fd
 from pathlib import Path
+import config as cfg
+import hardware_scores as hs
+import regex_patterns as rp
 
 
 def clean_ads(raw_Data):
@@ -27,7 +30,7 @@ def clean_ads(raw_Data):
 def filter_ads_by_price(not_priced_filtered_ads):
     temp_price_filtered_ads = []
     for x in not_priced_filtered_ads:
-        if x["price"] <= 750 and x["price"] >= 250:
+        if x["price"] <= cfg.MAX_PRICE and x["price"] >= cfg.MIN_PRICE:
             temp_price_filtered_ads.append(x)
     return temp_price_filtered_ads
 
@@ -50,172 +53,14 @@ def filter_text_ads(unfiltered_text_ads):
     return filtered_ads
 
 
-pattern_gpu = r"(RTX|GTX|RX)[-\s]*\d{4}[-\s]*(TI|Super|XTX|XT)?"
-# Zur errinenrung (||) kann wörter unterscheiden und als option sehen
-# [] kann nur ein einziges zeichen als option sehen
-pattern_cpu_intel = r"(Intel Core)?\s?i[3579][-\s]*\d{4,5}(KF|F|K|T)?"
-pattern_cpu_ryzen = r"\b(Ryzen|R)\s?[3579][-\s]*\d{4}(x3d|xt|x|g)?"
-pattern_ram = r"(\d{1,2}\s*GB\s*(RAM|ARBEITSSPEICHER)|(RAM|ARBEITSSPEICHER):?\s*\d{1,2}\s*GB)|(\d{1,2}\s*GB\s*DDR[45])|(DDR[45][-\s]*\d{1,2}\s*GB)|(\d\s*x\s*\d{1,2}\s*GB\s*(ARBEITSSPEICHER|RAM|DDR[45])|DDR[45]\s*\d\s*x\s*\d{1,2}\s*GB)"
-
-gpu_scores = {
-    "RTX2060SUPER": 60,
-    "RTX2070": 60,
-    "RTX2070SUPER": 65,
-    "RTX2080": 70,
-    "RTX2080SUPER": 75,
-    "RTX2080TI": 80,
-
-    "RTX3060TI": 75,
-    "RTX3070": 80,
-    "RTX3070TI": 80,
-    "RTX3080TI": 95,
-    "RTX4070": 95,
-    "RTX4060": 70,
-    "RTX5060": 80,
-
-    "GTX1050": 10,
-    "GTX1050TI": 20,
-    "GTX1060": 30,
-    "GTX1070": 40,
-    "GTX1070TI": 45,
-    "GTX1080": 45,
-    "GTX1080TI": 55,
-    "GTX1630": 10,
-    "GTX1650": 25,
-    "GTX1650SUPER": 35,
-    "GTX1660": 40,
-    "GTX1660SUPER": 45,
-    "GTX1660TI": 45,
-
-    "RX5500XT": 35,
-    "RX5600XT": 50,
-    "RX5700": 55,
-    "RX5700XT": 60,
-    "RX6400": 20,
-    "RX6500XT": 25,
-    "RX6600": 60,
-    "RX6600XT": 70,
-    "RX6650XT": 70,
-    "RX6700": 75,
-    "RX6700XT": 80,
-    "RX6750XT": 85,
-    "RX6800": 90,
-    "RX6800XT": 95,
-    "RX6900XT": 100,
-    "RX6950XT": 100,
-    "RX7600": 70,
-    "RX7600XT": 75,
-    "RX7700XT": 90,
-    "RX7800XT": 100
-}
-
-cpu_scores = {
-    # AMD Ryzen 2000
-    "RYZEN52600": 45,
-    "RYZEN52600X": 47,
-    "RYZEN72700": 50,
-    "RYZEN72700X": 52,
-
-    # AMD Ryzen 3000
-    "RYZEN33100": 45,
-    "RYZEN33300X": 55,
-    "RYZEN53600": 60,
-    "RYZEN53600X": 62,
-    "RYZEN53600XT": 63,
-    "RYZEN73700X": 65,
-    "RYZEN73800X": 67,
-    "RYZEN73800XT": 68,
-    "RYZEN93900X": 70,
-    "RYZEN93950X": 72,
-
-    # AMD Ryzen 4000 / 5000
-    "RYZEN54500": 52,
-    "RYZEN55500": 62,
-    "RYZEN55600G": 65,
-    "RYZEN55600": 75,
-    "RYZEN55600X": 77,
-
-    "RYZEN75700G": 68,
-    "RYZEN75700X": 80,
-    "RYZEN75800X": 82,
-    "RYZEN75800X3D": 95,
-
-    "RYZEN95900X": 84,
-    "RYZEN95950X": 85,
-
-    # AMD Ryzen 7000
-    "RYZEN57600": 90,
-    "RYZEN57600X": 92,
-    "RYZEN77700": 94,
-    "RYZEN77700X": 95,
-    "RYZEN77800X3D": 100,
-
-    # Intel 9th Gen
-    "I59400F": 42,
-    "I59600K": 50,
-    "I79700": 55,
-    "I79700K": 58,
-    "I99900K": 65,
-
-    # Intel 10th Gen
-    "I310100F": 45,
-    "I510400": 60,
-    "I510400F": 60,
-    "I510600K": 65,
-    "I510600KF": 65,
-    "I710700": 70,
-    "I710700F": 70,
-    "I710700K": 72,
-    "I710700KF": 72,
-    "I910900K": 76,
-
-    # Intel 11th Gen
-    "I511400": 65,
-    "I511400F": 65,
-    "I511600K": 70,
-    "I511600KF": 70,
-    "I711700": 72,
-    "I711700F": 72,
-    "I711700K": 74,
-    "I711700KF": 74,
-
-    # Intel 12th Gen
-    "I312100F": 70,
-    "I512400": 80,
-    "I512400F": 80,
-    "I512600K": 88,
-    "I512600KF": 88,
-    "I712700": 90,
-    "I712700F": 90,
-    "I712700K": 92,
-    "I712700KF": 92,
-
-    # Intel 13th Gen
-    "I313100F": 75,
-    "I513400": 85,
-    "I513400F": 85,
-    "I513600K": 95,
-    "I513600KF": 95,
-    "I713700K": 98,
-    "I713700KF": 98,
-
-    # Intel 14th Gen
-    "I514400": 86,
-    "I514400F": 86,
-    "I514600K": 97,
-    "I514600KF": 97,
-    "I714700K": 100,
-    "I714700KF": 100
-}
-
-
 def extract_gpu_data(ads):
     for x in ads:
-        unnormed_gpu = re.search(pattern_gpu, x["description"], re.IGNORECASE)
+        unnormed_gpu = re.search(
+            rp.PATTERN_GPU, x["description"], re.IGNORECASE)
         if unnormed_gpu is not None:
             unnormed_gpu = unnormed_gpu.group()
         if unnormed_gpu is None:
-            unnormed_gpu = re.search(pattern_gpu, x["title"], re.IGNORECASE)
+            unnormed_gpu = re.search(rp.PATTERN_GPU, x["title"], re.IGNORECASE)
             if unnormed_gpu is not None:
                 unnormed_gpu = unnormed_gpu.group()
 
@@ -227,7 +72,7 @@ def extract_gpu_data(ads):
             normed_gpu = unnormed_gpu.upper()
 
         x["gpu"] = normed_gpu
-        x["gpu_score"] = gpu_scores.get(x["gpu"])
+        x["gpu_score"] = hs.GPU_SCORES.get(x["gpu"])
     return ads
 
 
@@ -237,10 +82,10 @@ def extract_cpu_data(ads):
 
         normed_cpu = None
         unnormed_cpu_intel = re.search(
-            pattern_cpu_intel, x["description"], re.IGNORECASE)
+            rp.PATTERN_CPU_INTEL, x["description"], re.IGNORECASE)
         if unnormed_cpu_intel is None:
             unnormed_cpu_intel = re.search(
-                pattern_cpu_intel, x["title"], re.IGNORECASE)
+                rp.PATTERN_CPU_INTEL, x["title"], re.IGNORECASE)
 
         if unnormed_cpu_intel is not None:
             unnormed_cpu_intel = unnormed_cpu_intel.group()
@@ -253,10 +98,10 @@ def extract_cpu_data(ads):
 
         if normed_cpu is None:
             unnormed_cpu_ryzen = re.search(
-                pattern_cpu_ryzen, x["description"], re.IGNORECASE)
+                rp.PATTERN_CPU_RYZEN, x["description"], re.IGNORECASE)
             if unnormed_cpu_ryzen is None:
                 unnormed_cpu_ryzen = re.search(
-                    pattern_cpu_ryzen, x["title"], re.IGNORECASE)
+                    rp.PATTERN_CPU_RYZEN, x["title"], re.IGNORECASE)
             if unnormed_cpu_ryzen is not None:
                 unnormed_cpu_ryzen = unnormed_cpu_ryzen.group()
                 unnormed_cpu_ryzen = unnormed_cpu_ryzen.upper()
@@ -266,7 +111,7 @@ def extract_cpu_data(ads):
                 unnormed_cpu_ryzen = re.sub(r"-", "", unnormed_cpu_ryzen)
                 normed_cpu = unnormed_cpu_ryzen
         x["cpu"] = normed_cpu
-        x["cpu_score"] = cpu_scores.get(x["cpu"])
+        x["cpu_score"] = hs.CPU_SCORES.get(x["cpu"])
     return ads
 
 
@@ -274,9 +119,10 @@ def extract_ram_data(ads):
     for x in ads:
         normed_ram = None
 
-        unnormed_ram = re.search(pattern_ram, x["description"], re.IGNORECASE)
+        unnormed_ram = re.search(
+            rp.PATTERN_RAM, x["description"], re.IGNORECASE)
         if unnormed_ram is None:
-            unnormed_ram = re.search(pattern_ram, x["title"], re.IGNORECASE)
+            unnormed_ram = re.search(rp.PATTERN_RAM, x["title"], re.IGNORECASE)
 
         if unnormed_ram is not None:
             unnormed_ram = unnormed_ram.group()
@@ -297,8 +143,9 @@ def extract_ram_data(ads):
 
 
 def filter_candidates(df):
-    candidate_df = df[(df["gpu_score"] >= 60) | (df["gpu_score"].isna())]
-    candidate_df = candidate_df[(candidate_df["cpu_score"] >= 60) | (
+    candidate_df = df[(df["gpu_score"] >= cfg.MIN_GPU_SCORE)
+                      | (df["gpu_score"].isna())]
+    candidate_df = candidate_df[(candidate_df["cpu_score"] >= cfg.MIN_CPU_SCORE) | (
         candidate_df["cpu_score"].isna())]
     return candidate_df
 
@@ -318,6 +165,7 @@ def export_candidates_to_csv(df):
 def main():
 
     data = fd.load_snapshot_data()
+    # data = fd.fetch_data()
     cleaned_ads = clean_ads(data)
     price_filtered_ads = filter_ads_by_price(cleaned_ads)
     defect_filtered_ads = filter_text_ads(price_filtered_ads)
